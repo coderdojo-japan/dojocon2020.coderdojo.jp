@@ -1,0 +1,12 @@
+<article class="article article-event">
+  <img src="{{site.url}}/img/post/{{post.thumbnail}}" alt="thumbnail of {{ post.title }}" class="article-thumbnail" loading="lazy">
+  <h3 class="article-title">{{ post.title }}</h3>
+  <p class="tags">
+  {% for tag in post.tags %}
+    <span class="tag-workshop">{{tag}}</span>
+  {% endfor %}
+  </p>
+  <a href="{{ site.url }}{{ post.url }}" class="button">
+    もっと見る
+  </a>
+</article>

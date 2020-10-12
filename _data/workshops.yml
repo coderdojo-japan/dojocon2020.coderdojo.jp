@@ -1,0 +1,6 @@
+# - title: ワークショップタイトル(例: Dojo日本地図-日本全国のCoderDojoを探してみよう- )
+#   stime: 開始時間(例: 10:00)
+#   etime: 終了時間(例: 12:40)
+#   tag: スペース区切りタグ(例:忍者向け)
+#   column: 列。0~2で指定(例:0)
+#   url: URL。(例: /session/dojo_report)
