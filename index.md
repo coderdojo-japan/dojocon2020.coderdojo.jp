@@ -10,7 +10,7 @@ copy: "- Beyond the distance(距離を超えて) -"
   <h1>DojoCon Japan <br>2020</h1>
   <div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> Beyond the distance(距離を超えて)</div>
   <p class="top-date">12.27<span>SUN</span></p>
-  <p class="top-venue">in<br class="ph"> ZOOM<br class="ph"> </p>
+  <p class="top-venue">in<br class="ph">Online<br class="ph"> </p>
 
   <!--<img src="{{site.url}}/img/home.jpg" alt="(´∀｀*)" class="top-ninja">-->
 </section>
@@ -31,12 +31,8 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   </div>
   <div class="text">
     <h3>DojoCon Japan 2020 について</h3>
-    <p>今年2020年の DojoCon Japan では 「Beyond the distance」をテーマとしました。単純明快、1年前なら距離とはこのことだったであろう "地理的距離"
-最近やたらと耳にする "ソーシャル・ディスタンス"、社会的距離
-ユース・メンター、ユース・チャンピオンの活躍を僕もたくさん耳にします。
-年齢的・立場的な距離 を超えた活動が存在しています。
+    <p>
 
-つまるところ、今年の開催趣旨は以下のようにしたいと思っています
 
 <!--初期の段階では Scratch などでプログラミングの場を子どもたちに提供する という 枠組みからスタートするDojoが多かったと思いますが、今ではそれぞれのDojoでその枠組みを超えて様々な活動を提供していたり、様々な子どもたちを対象としていたり、CoderDojoという枠を超えて他の団体や人との関わりや繋がりをもって活動しているDojoもでてきました。そんな新たな取り組みを DojoCon で共有し、それぞれのDojoが「つぎのSTEP」を踏み出せるきっかけになるDojoCon になればと考えています。「つぎのSTEP」を積み重ね、CoderDojo コミュニティが進化していき、子どもたちにとってよりよいプログラミングを学ぶ場になっていくことを願います。-->
 </p>
@@ -73,14 +69,14 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <p class="caption">会場の場所</p>
   <!--<iframe title="google map" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" loading="lazy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
   <div class="text">
-    <h3>Zoom?</h3>
+    <h3>in Online</h3>
     <!--<p>愛知県名古屋市東区矢田南 4-102-9</p>
     <p>JR中央本線・名鉄瀬戸線「大曽根」駅下車 徒歩約10分。地下鉄名城線 「ナゴヤドーム前矢田」駅下車2番出口 徒歩約3分。ゆとりーとライン「ナゴヤドーム前矢田」駅から徒歩約5分</p>-->
   </div>
 </section>
 <div class="background-ninja">
 <section id="news">
-  <h2>NEWS</h2>
+  <!--<h2>NEWS</h2>
   <p class="caption">お知らせ</p>
   <div class="flex x-scroll">
   {% for post in site.categories.news %}
@@ -88,9 +84,9 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   {% endfor %}
   </div>
 </section>
-</div>
+</div>-->
 <section id="workshops">
-  <h2>WORKSHOP</h2>
+  <!--<h2>WORKSHOP</h2>
   <p class="caption">ワークショップ</p>
   <!<div class="img-section">
     <img src="{{site.url}}/img/workshop.jpg" alt="Workshop" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
@@ -100,10 +96,10 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     {% include workshops.html %}
   {% endfor %}
   </div>
-</section>
+</section>-->
 <div class="background-ninja">
 <section id="sessions">
-  <h2>SESSION</h2>
+ <!-- <h2>SESSION</h2>
   <p class="caption">セッション</p>
   <div class="img-section">
     <img src="{{site.url}}/img/session.jpg" alt="Session" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
@@ -114,12 +110,12 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   {% endfor %}
   </div>
 </section>
-</div>
-<section id="contest">
+</div>-->
+<!--<section id="contest">
   <h2>CONTEST</h2>
   <p class="caption">コンテスト</p>
   <article class="article article-contest">
-    <!--<img src="{{site.url}}/img/goglobal_thumbnail.png" alt="Contest" class="article-thumbnail" loading="lazy">
+    <img src="{{site.url}}/img/goglobal_thumbnail.png" alt="Contest" class="article-thumbnail" loading="lazy">
     <h3>GO GLOBAL! プログラミングコンテスト 作品募集！</h3>
     <p>子ども達に海外の文化やコミュニティーにふれてもらいたい。その思いから、昨年に続き今年も『ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト』を開催いたします。最優秀賞受賞者は、アイルランドで2020年6月頃に開催されるCoolest Projectsへご招待します。</p>
     <a href="{{site.url}}/contests/1" class="button">
