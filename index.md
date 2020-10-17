@@ -72,8 +72,8 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     <h3>in Online</h3>
   </div>
 </section>
-<div class="background-ninja">
-<section id="news">
+<!--<div class="background-ninja">
+<section id="news">-->
   <!--<h2>NEWS</h2>
   <p class="caption">お知らせ</p>
   <div class="flex x-scroll">
