@@ -409,7 +409,7 @@ h2 {
   }
   h3 {
     background-color: $main-color;
-    color: #fff;
+    color: #69b800;
     margin-right: 12px;
     padding: 4px 12px;
     text-align: center;
