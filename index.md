@@ -74,55 +74,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
 </section>
 <!--<div class="background-ninja">
 <section id="news">
-  <h2>NEWS</h2>
-  <p class="caption">お知らせ</p>
-  <div class="flex x-scroll">
-  {% for post in site.categories.news %}
-    {% include articles.html %}
-  {% endfor %}
-  </div>
-</section>
-</div>-->
-<!--<section id="workshops">
- <h2>WORKSHOP</h2>
-  <p class="caption">ワークショップ</p>
-  <!<div class="img-section">
-    <img src="{{site.url}}/img/workshop.jpg" alt="Workshop" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
-  </div>
-  <div class="flex x-scroll">
-  {% for post in site.categories.workshop %}
-    {% include workshops.html %}
-  {% endfor %}
-  </div>
-</section>-->
-<div class="background-ninja">
-<section id="sessions">
- <!-- <h2>SESSION</h2>
-  <p class="caption">セッション</p>
-  <div class="img-section">
-    <img src="{{site.url}}/img/session.jpg" alt="Session" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
-  </div>
-  <div class="flex x-scroll">
-  {% for post in site.categories.session %}
-    {% include sessions.html %}
-  {% endfor %}
-  </div>
-</section>
-</div>-->
-<!--<section id="contest">
-  <h2>CONTEST</h2>
-  <p class="caption">コンテスト</p>
-  <article class="article article-contest">
-    <img src="{{site.url}}/img/goglobal_thumbnail.png" alt="Contest" class="article-thumbnail" loading="lazy">
-    <h3>GO GLOBAL! プログラミングコンテスト 作品募集！</h3>
-    <p>子ども達に海外の文化やコミュニティーにふれてもらいたい。その思いから、昨年に続き今年も『ソニックガーデン presents Go Global! DojoCon Japan 2019 プログラミングコンテスト』を開催いたします。最優秀賞受賞者は、アイルランドで2020年6月頃に開催されるCoolest Projectsへご招待します。</p>
-    <a href="{{site.url}}/contests/1" class="button">
-      もっと見る
-    </a>--->
-  </article>
-</section>
-
-<section id="sponsors">
+  <section id="sponsors">
   <h2>SPONSORS</h2>
   <p class="caption">スポンサーさま</p>
   <!-- /_data/sponsors.ymlからランクごとに読み込んで表示している。もっとスマートになるはず… -->
