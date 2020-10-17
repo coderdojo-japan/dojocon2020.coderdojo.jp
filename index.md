@@ -80,11 +80,11 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   {% for post in site.categories.news %}
     {% include articles.html %}
   {% endfor %}
-  </div>-->
+  </div>
 </section>
-</div>
-<section id="workshops">
-  <!--<h2>WORKSHOP</h2>
+</div>-->
+<!--<section id="workshops">
+ <h2>WORKSHOP</h2>
   <p class="caption">ワークショップ</p>
   <!<div class="img-section">
     <img src="{{site.url}}/img/workshop.jpg" alt="Workshop" loading="lazy"> <!--ここに画像のパスを設定するとセクションのイメージ画像として表示されます。-->
