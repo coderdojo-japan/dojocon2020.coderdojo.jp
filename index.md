@@ -72,56 +72,6 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     <h3>in Online</h3>
   </div>
 </section>
-<!--<div class="background-ninja">
-<section id="news">
-  <section id="sponsors">
-  <h2>SPONSORS</h2>
-  <p class="caption">スポンサーさま</p>
-  <!-- /_data/sponsors.ymlからランクごとに読み込んで表示している。もっとスマートになるはず… -->
-  <h3>Gold Sponsors</h3>
-  <!--<div class="sponsors-rank">
-    {% for sponsor in site.data.sponsors.gold %}
-    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
-    {% if sponsor.img %}<img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-gold sponsors-rank-img">{% else %}<h2 style="text-align:center; font-size: 24px;">{{sponsor.name}}</h2>{% endif %}
-    </a>
-    {% endfor %}
-  </div>-->
-
-  <h3>Silver Sponsors</h3>
-  <!--<div class="sponsors-rank">
-    {% for sponsor in site.data.sponsors.silver %}
-    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-silver sponsors-rank-img">
-    </a>
-    {% endfor %}
-  </div>-->
-
-  <h3>Bronze Sponsors</h3>
-  <!--<div class="sponsors-rank">
-    {% for sponsor in site.data.sponsors.bronze %}
-    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-bronze sponsors-rank-img">
-    </a>
-    {% endfor %}
-  </div>-->
-  <h3>In-kind Sponsors</h3>
-  <!--<div class="sponsors-rank">
-    {% for sponsor in site.data.sponsors.in-kind %}
-    <a href="{{sponsor.site}}" target="_blank" rel="noopener">
-    <img src="{{site.url}}/img/sponsor/{{sponsor.img}}" alt="{{sponsor.name}}" class="sponsor-in-kind .sponsors-rank-img">
-    </a>
-    {% endfor %}
-  </div>-->
-  <h3>Individual Sponsors</h3>
-  <!--<div class="sponsors-rank">
-    <ul class="individual">
-    {% for sponsor in site.data.sponsors.individual %}
-    <li>{{sponsor.name}}</li>
-    {% endfor %}
-    </ul>
-  </div>-->
-</section>
-
 <section id="coderdojo-foundation">
   <h2>Organized by</h2>
   <p class="caption">主催</p>
