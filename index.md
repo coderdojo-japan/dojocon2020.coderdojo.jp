@@ -3,6 +3,7 @@ layout: default
 copy: "- Beyond the distance(距離を超えて) -"
 ---
 <section class="top">
+　<link href="/_sass/_variables.sass" rel="stylesheet"></link>
   <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title">
   <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
