@@ -73,16 +73,16 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   </div>
 </section>
 <!--<div class="background-ninja">
-<section id="news">-->
-  <!--<h2>NEWS</h2>
+<section id="news">
+  <h2>NEWS</h2>
   <p class="caption">お知らせ</p>
   <div class="flex x-scroll">
   {% for post in site.categories.news %}
     {% include articles.html %}
   {% endfor %}
-  </div>
+  </div>-->
 </section>
-</div>-->
+</div>
 <section id="workshops">
   <!--<h2>WORKSHOP</h2>
   <p class="caption">ワークショップ</p>
