@@ -3,8 +3,8 @@ layout: default
 copy: "- Beyond the distance(距離を超えて) -"
 ---
 <section class="top">
-  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2019" class="top-title-big top-title">
-  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2019" class="top-title-small top-title">-->
+  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title">
+  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
 
   <h1>DojoCon Japan <br>2020</h1>
