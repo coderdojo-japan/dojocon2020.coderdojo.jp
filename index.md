@@ -3,7 +3,7 @@ layout: default
 copy: "- Beyond the distance(距離を超えて) -"
 ---
 <section class="top">
-　<link href="/_sass/_variables.sass" rel="stylesheet"></link>
+　<link href="/_sass/_variables.sass" rel="stylesheet">
   <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title">
   <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
@@ -54,7 +54,7 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     </div>
     <div class="outline-one">
       <h3>場所</h3>
-      <p>??</p>
+      <p>Online</p>
     </div>
     <div class="outline-one">
       <h3>参加費</h3>
