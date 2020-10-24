@@ -7,11 +7,11 @@ copy: "- Beyond the distance(距離を超えて) -"
   <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title"
   <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
-  <img src="/img/cover_a.png" alt="(´∀｀*)" class="cover_a">
+  <img src="/img/cover_a.png" alt="(´∀｀*)" class="top-image">
   <!--<h1>DojoCon Japan <br>2020</h1>-->
-  <div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> Beyond the distance(距離を超えて)</div>
+  <!--<div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> Beyond the distance(距離を超えて)</div>
   <p class="top-date">12.27<span>SUN</span></p>
-  <p class="top-venue">in<br class="ph">Online<br class="ph"> </p>
+  <p class="top-venue">in<br class="ph">Online<br class="ph"> </p>-->
 
   <!--<img src="{{site.url}}/img/home.jpg" alt="(´∀｀*)" class="top-ninja">-->
 </section>
@@ -30,14 +30,12 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     CoderDojo は2011年にアイルランドから始まり、現在（2019年12月）は世界100カ国に1,800以上の道場があり、日本国内でも全国194以上の道場で毎年1,000回以上 (*1) 開催されています。CoderDojo はエンジニアやデザイナー、各地域の保護者や学生、研究者や経営者など（メンター）と子どもが出会える場にもなっています。
 <br>*1 統計情報: https://coderdojo.jp/stats</p>
   </div>
-  <!--<div class="text">
+  <div class="text">
     <h3>DojoCon Japan 2020 について</h3>
-    <p>
-
-
-初期の段階では Scratch などでプログラミングの場を子どもたちに提供する という 枠組みからスタートするDojoが多かったと思いますが、今ではそれぞれのDojoでその枠組みを超えて様々な活動を提供していたり、様々な子どもたちを対象としていたり、CoderDojoという枠を超えて他の団体や人との関わりや繋がりをもって活動しているDojoもでてきました。そんな新たな取り組みを DojoCon で共有し、それぞれのDojoが「つぎのSTEP」を踏み出せるきっかけになるDojoCon になればと考えています。「つぎのSTEP」を積み重ね、CoderDojo コミュニティが進化していき、子どもたちにとってよりよいプログラミングを学ぶ場になっていくことを願います。
-</p>
-  </div>-->
+    <p>現在、国内には215ヶ所以上の Dojo が活動しています。DojoCon Japan が初めて開催された2016年から比べて、現在に至るまで約4倍の成長率で全国的に広がりを見せています。
+今年は初めてのオンライン開催となります。私たちの日常生活には様々な“距離“が生まれました。CoderDojo コミュニティでも大きな変化が訪れていますが、DojoCon Japan 2020 では、
+“Beyond the Distance” というテーマのもと、様々な距離 (心理的距離、地理的距離など) を乗り越えて、コミュニティのより一層の発展と盛り上がりのきっかけになることを目指しています。</p>
+  </div>
 </section>
 <div class="background-ninja">
 <section id="outline">
