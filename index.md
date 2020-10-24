@@ -60,7 +60,10 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
       <h3>参加費</h3>
       <p>無料</p>
     </div>
-    <p>※参加には事前の申し込みが必要となります。<br>イベント終了後、懇親会の開催を予定しております。</p>
+    <div class="outline-one">
+      <h3>内容</h3>
+      <p>全国の CoderDojo 関係者によるセッションやワークショップなどの企画など</p>
+    </div>
   </div>
 　　<div class="outline-one">
     <h3>内容</h3>
