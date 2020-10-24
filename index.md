@@ -64,13 +64,11 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
       <h3>内容</h3>
       <p>全国の CoderDojo 関係者によるセッションやワークショップなどの企画など</p>
     </div>
-  </div>
 　　<div class="outline-one">
     <h3>内容</h3>
     <p>全国の CoderDojo 関係者によるセッションやワークショップなどの企画など</p>
   </div>
   <!--<a href="https://dojocon-japan.doorkeeper.jp/" class="button" target="_blank" rel="noopener">申し込みをする</a>-->
-</section>
 </div>
 
 <div class="background-ninja">
