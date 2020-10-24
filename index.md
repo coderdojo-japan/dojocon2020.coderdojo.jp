@@ -69,14 +69,15 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <!--<a href="https://dojocon-japan.doorkeeper.jp/" class="button" target="_blank" rel="noopener">申し込みをする</a>-->
 </section>
 </div>
-<section id="access">
-  <h2>ACCESS</h2>
-  <p class="caption">会場の場所</p>
-  <!--<iframe title="google map" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3260.69697362165!2d136.9440337!3d35.1891045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003119bbc4c9fc5%3A0xd5c643a8df7fc59!2z5ZCN5Z-O5aSn5a2mIOODiuOCtOODpOODieODvOODoOWJjeOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sus!4v1568871387623!5m2!1sja!2sus" loading="lazy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>-->
-  <div class="text">
-    <h3>オンライン　(メインセッションはYoutubeLiveで行います。)</h3>
-  </div>
+
+<div class="background-ninja">
+<section id="contactme">
+  <h2>CONTACT</h2>
+  <p class="caption">お問い合わせ</p>
+  <a href="https://forms.gle/tvDUYUpvZupRcjub7" class="button" target="_blank" rel="noopener">フォームを開く</a>
 </section>
+</div>
+
 <section id="coderdojo-foundation">
   <h2>Organized by</h2>
   <p class="caption">主催</p>
@@ -92,14 +93,6 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     <li>名古屋市教育委員会</li>-->
   </ul>
 </section>
-
-<div class="background-ninja">
-<section id="contactme">
-  <h2>CONTACT</h2>
-  <p class="caption">お問い合わせ</p>
-  <a href="https://forms.gle/pc82bDDD8a1iGHpX7" class="button" target="_blank" rel="noopener">フォームを開く</a>
-</section>
-</div>
 <!--<section id="sns">
   <h2>SNS</h2>
 </section>-->
