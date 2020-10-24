@@ -94,10 +94,10 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
   <h2>SNS</h2>
 </section>-->
 
-<section id="staff">
+<!--<section id="staff">
   <h2>STAFF</h2>
   <p class="caption">実行委員のみなさん</p>
-  <!--<div class="flex">
+  <div class="flex">
   {% for staff in site.data.staff %}
   <div class="staff">
     {% if staff.site %}
@@ -111,5 +111,5 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     <p>{{staff.name}}</p>{% if staff.site %}</a>{% endif %}
   </div>
   {% endfor %}
-  </div>-->
-</section>
+  </div>
+</section>-->
