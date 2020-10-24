@@ -4,7 +4,7 @@ copy: "- Beyond the distance(距離を超えて) -"
 ---
 <section class="top">
 　<link href="/_sass/_variables.sass" rel="stylesheet">
-  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title">
+  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title"
   <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
 
@@ -15,7 +15,7 @@ copy: "- Beyond the distance(距離を超えて) -"
 
   <!--<img src="{{site.url}}/img/home.jpg" alt="(´∀｀*)" class="top-ninja">-->
 </section>
-<img src="{{site.url}}/img/background.png" class="top-background" alt="Background">
+<!--<img src="{{site.url}}/img/background.png" class="top-background" alt="Background">-->
 <section id="about">
   <h2>DojoCon Japan 2020</h2>
   <div class="text">
@@ -30,14 +30,14 @@ CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の D
     CoderDojo は2011年にアイルランドから始まり、現在（2019年12月）は世界100カ国に1,800以上の道場があり、日本国内でも全国194以上の道場で毎年1,000回以上 (*1) 開催されています。CoderDojo はエンジニアやデザイナー、各地域の保護者や学生、研究者や経営者など（メンター）と子どもが出会える場にもなっています。
 <br>*1 統計情報: https://coderdojo.jp/stats</p>
   </div>
-  <div class="text">
+  <!--<div class="text">
     <h3>DojoCon Japan 2020 について</h3>
     <p>
 
 
-<!--初期の段階では Scratch などでプログラミングの場を子どもたちに提供する という 枠組みからスタートするDojoが多かったと思いますが、今ではそれぞれのDojoでその枠組みを超えて様々な活動を提供していたり、様々な子どもたちを対象としていたり、CoderDojoという枠を超えて他の団体や人との関わりや繋がりをもって活動しているDojoもでてきました。そんな新たな取り組みを DojoCon で共有し、それぞれのDojoが「つぎのSTEP」を踏み出せるきっかけになるDojoCon になればと考えています。「つぎのSTEP」を積み重ね、CoderDojo コミュニティが進化していき、子どもたちにとってよりよいプログラミングを学ぶ場になっていくことを願います。-->
+初期の段階では Scratch などでプログラミングの場を子どもたちに提供する という 枠組みからスタートするDojoが多かったと思いますが、今ではそれぞれのDojoでその枠組みを超えて様々な活動を提供していたり、様々な子どもたちを対象としていたり、CoderDojoという枠を超えて他の団体や人との関わりや繋がりをもって活動しているDojoもでてきました。そんな新たな取り組みを DojoCon で共有し、それぞれのDojoが「つぎのSTEP」を踏み出せるきっかけになるDojoCon になればと考えています。「つぎのSTEP」を積み重ね、CoderDojo コミュニティが進化していき、子どもたちにとってよりよいプログラミングを学ぶ場になっていくことを願います。
 </p>
-  </div>
+  </div>-->
 </section>
 <div class="background-ninja">
 <section id="outline">
