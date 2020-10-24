@@ -4,6 +4,8 @@
 @import '_variables'; //変数の読み込み。/_sass/_variables.scss内に色の変数がある。
 @import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:400,900|Roboto:400,900|M+PLUS+Rounded+1c:400,800&display=swap'); //Webフォント読み込み。
 
+$test: 100;
+
 $navbar: 60px;
 html {
   scroll-behavior: smooth;
@@ -756,27 +758,36 @@ h2 {
 }
 
 //トップ・メインビジュアル
-.top {
-  margin-bottom: 0;
-  padding: 0;
+// .top {
+//   margin-bottom: 0;
+//   padding: 0;
+//   position: relative;
+//   text-align: center;
+//   width: 100%;
+
+//   h1 {
+//     color: $red;
+//     font-family: 'Concert One';
+//     font-size: 8vh;
+//     line-height: 1em;
+//     margin: 16px 0;
+//   }
+//   img {
+//     left: 0;
+//     z-index: -8;
+//   }
+//   p {
+//     margin: 0;
+//   }
+// }
+
+.top{
   position: relative;
-  text-align: center;
-  width: 100%;
-  h1 {
-    color: $red;
-    font-family: 'Concert One';
-    font-size: 8vh;
-    line-height: 1em;
-    margin: 16px 0;
-  }
-  img {
-    left: 0;
-    z-index: -8;
-  }
-  p {
-    margin: 0;
-  }
+  height: 50vh;
+  background: url(img/cover_b.png) center / cover;
 }
+
+
 .top-background {
   left: 0;
   position: absolute;
