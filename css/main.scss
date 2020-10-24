@@ -33,10 +33,10 @@ header {
 //投稿、トップページの情報ごとのひとかたまり
 section,
 .post {
-  margin: 48px auto;
+  //margin: 48px auto;
   padding: 8px;
-  width: 80vw;
-  max-width: 1000px;
+  width: 100vw;
+  //max-width: 1000px;
   clear: both;
   overflow: hidden;
 }
@@ -756,27 +756,35 @@ h2 {
 }
 
 //トップ・メインビジュアル
-.top {
-  margin-bottom: 0;
-  padding: 0;
+// .top {
+//   margin-bottom: 0;
+//   padding: 0;
+//   position: relative;
+//   text-align: center;
+//   width: 100%;
+//   h1 {
+//     color: $red;
+//     font-family: 'Concert One';
+//     font-size: 8vh;
+//     line-height: 1em;
+//     margin: 16px 0;
+//   }
+//   img {
+//     left: 0;
+//     z-index: -8;
+//   }
+//   p {
+//     margin: 0;
+//   }
+// }
+
+.top{
   position: relative;
-  text-align: center;
-  width: 100%;
-  h1 {
-    color: $red;
-    font-family: 'Concert One';
-    font-size: 8vh;
-    line-height: 1em;
-    margin: 16px 0;
-  }
-  img {
-    left: 0;
-    z-index: -8;
-  }
-  p {
-    margin: 0;
-  }
+  height: 50vh;
+  background: url(../img/cover_a.png) center / cover;
+  
 }
+
 .top-background {
   left: 0;
   position: absolute;

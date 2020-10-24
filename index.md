@@ -3,26 +3,17 @@ layout: default
 copy: "- Beyond the distance(距離を超えて) -"
 ---
 <section class="top">
-　<link href="/_sass/_variables.sass" rel="stylesheet">
-  <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title"
-  <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
-  <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
-  <img src="/img/cover_a.png" alt="(´∀｀*)" class="top">
-  <!--<h1>DojoCon Japan <br>2020</h1>-->
-  <!--<div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> Beyond the distance(距離を超えて)</div>
-  <p class="top-date">12.27<span>SUN</span></p>
-  <p class="top-venue">in<br class="ph">Online<br class="ph"> </p>-->
-
-  <!--<img src="{{site.url}}/img/home.jpg" alt="(´∀｀*)" class="top-ninja">-->
 </section>
+
+
 <!--<img src="{{site.url}}/img/background.png" class="top-background" alt="Background">-->
 <section id="about">
   <h2>DojoCon Japan 2020</h2>
   <div class="text">
     <h3>日本最大の CoderDojo の祭典</h3>
     <p>DojoCon Japan とは CoderDojo コミュニティが全国から集まる、年に１度のカンファレンスイベントです。<br>
-CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の DojoCon (CoderDojo Conference) が年１回のペースで開催されています。「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催されました。本年は5回目の開催をオンラインで行います。DojoCon は、主に CoderDojo を支える運営者やメンターたちを対象にしたカンファレンスであり、CoderDojo の運営方法やノウハウの共有などに主眼が置かれています。
-</p>
+      CoderDojo 発祥の地アイルランドでは、CoderDojo Foundation主催の DojoCon (CoderDojo Conference) が年１回のペースで開催されています。「DojoCon Japan」はこの日本版という位置づけで、2016年〜2017年は大阪、2018年は東京、2019年は名古屋で開催されました。本年は5回目の開催をオンラインで行います。DojoCon は、主に CoderDojo を支える運営者やメンターたちを対象にしたカンファレンスであり、CoderDojo の運営方法やノウハウの共有などに主眼が置かれています。
+    </p>
   </div>
   <div class="text">
     <h3>CoderDojo とは</h3>
