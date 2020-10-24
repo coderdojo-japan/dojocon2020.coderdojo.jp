@@ -7,7 +7,7 @@ copy: "- Beyond the distance(距離を超えて) -"
   <!--<img src="{{site.url}}/img/dojocon_brown_oneline.png" alt="DojoConJapan2020" class="top-title-big top-title"
   <img src="{{site.url}}/img/dojocon_brown.png" alt="DojoConJapan2020" class="top-title-small top-title">-->
   <!--<img src="{{site.url}}/img/cloud.png" class="top-cloud" alt="Cloud">-->
-
+  <!--<img src="/img/cover_a.png" alt="(´∀｀*)" class="cover_a">-->
   <h1>DojoCon Japan <br>2020</h1>
   <div class="top-theme"><img src="{{site.url}}/img/svg/right.svg" alt="Right" class="top-right"> Beyond the distance(距離を超えて)</div>
   <p class="top-date">12.27<span>SUN</span></p>
