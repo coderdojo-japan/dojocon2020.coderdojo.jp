@@ -407,7 +407,8 @@
   .top{
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("/img/mainvisual.png");
+    //background: linear-gradient(rgba(235,255,209,0.5),rgba(235,255,209,0.5)), url("/img/mainvisual.png");
+    background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("/img/mainvisual.png");
     background-size: contain;
     background-position:center center;
     background-repeat: no-repeat;
@@ -421,34 +422,51 @@
         color: $main-color;
         font-size: 6em;
         text-align: center;
-        margin: 0 0 1rem 0;
+        font-family: 'Saira Semi Condensed', sans-serif;
+        line-height: 6rem;
+        margin: 0 0 1rem;
+        text-shadow: 
+          2px  2px 1px $light-green,
+          -2px 2px 1px $light-green,
+          2px -2px 1px $light-green,
+          -2px -3px 1px $light-green,
+          2px 0px 1px $light-green,
+          0px 2px 1px  $light-green,
+          -2px 0px 1px $light-green,
+          0px -2px 1px $light-green;  
       }
 
       h2 {
-        color: $third-color;
-        font-size: 4em;
+        color: #fff;
+        background-color: $secondary-color;
+        font-size: 3em;
+        font-family: 'Noto Sans JP', sans-serif;
         margin: 0 0 1rem 0;
       }
 
       h3 {
+        color: $red;
+        background-color: $light-red;
+        font-weight: bold;
         font-size: 2em;
-        margin: 0 0 1rem 0;
+        margin: 0 0 .5rem 0;
       }
 
       @media screen and (max-width: 600px) {
         h1 {
-          font-size: 3em; 
+          font-size: 5em; 
           text-align: center;
+          line-height: 5rem;
         }
 
         h2 {
-          color: $third-color;
-          font-size: 2em;
-          margin: 0 0 1rem 0;
+          font-size: 1.8em;
+          margin: 0 1rem 1rem 1rem;
         }
 
         h3 {
-          font-size: 1.5em;
+          font-size: 1.3em;
+          margin: 0 1rem .5rem 1rem;
         }
       }
     }
