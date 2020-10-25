@@ -458,4 +458,17 @@
       font-size: 6em;
     }
   }
+
+  .section-colored {
+    color: #fff;
+    background-color: $main-color;
+  }
+
+  .section-white {
+    background-color: #fff;
+  }
+
+  .section-gray {
+    background-color: $light-gray;
+  }
 }

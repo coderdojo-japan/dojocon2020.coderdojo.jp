@@ -30,20 +30,25 @@ header {
 
 //投稿、トップページの情報ごとのひとかたまり
 section {
-  margin: 48px auto;
+  margin: 0 auto;
+  padding: 3rem 0;
   width: 100vw;
-  max-width: 1000px;
   clear: both;
   overflow: hidden;
-
-  h2 {
-    // font-family: 'Concert One', cursive;
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-  .caption {
-    font-weight: 500;
-    margin: 0 auto 2em;
+  
+  .section-contents {
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1000px;
+    h2 {
+      // font-family: 'Concert One', cursive;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .caption {
+      font-weight: 500;
+      margin: 0 auto 2em;
+    }
   }
 }
 
