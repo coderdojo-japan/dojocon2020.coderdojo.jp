@@ -1,0 +1,285 @@
+html {
+  scroll-behavior: smooth;
+}
+
+//全体の設定。文字の設定が主である。
+body {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: $brown;
+}
+
+h2 {
+  margin-top: 1.6em;
+}
+
+p, a, h3 {
+  letter-spacing: 0.08em;
+  line-height: 1.8em;
+}
+
+a {
+  color: inherit; //リンクの文字色を場所によって変える
+}
+
+//ヘッダーの設定
+header {
+  padding-bottom: $navbar;
+}
+
+//投稿、トップページの情報ごとのひとかたまり
+section {
+  margin: 48px auto;
+  width: 100vw;
+  max-width: 1000px;
+  clear: both;
+  overflow: hidden;
+
+  h2 {
+    // font-family: 'Concert One', cursive;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  .caption {
+    font-weight: 500;
+    margin: 0 auto 2em;
+  }
+}
+
+.x-scroll {
+  @media screen and (max-width: 800px) {
+    overflow-x: scroll;
+    flex-wrap: nowrap !important;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: $light-blue;
+  border-radius: 10px;
+  box-shadow: 0px 6px $blue-shadow;
+  color: #fff;
+  display: block;
+  margin: 0 auto 12px;
+  padding: 8px 36px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 30%;
+  &:hover {
+    box-shadow: none;
+    opacity: 0.8;
+    transform: translateY(12px);
+    transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button {
+    padding: 8px 0;
+    width: 80%;
+  }
+}
+
+//フッター
+footer {
+  background-color: #888;
+  color: #fff;
+  padding-bottom: 12px;
+}
+.footer-menu-list {
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline;
+  }
+}
+
+.menu-hamburger {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 14px;
+  right: 24px;
+  width: 20px;
+  .fa-times {
+    display: none;
+  }
+  img {
+    height: 30px;
+  }
+}
+.menu-list {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  width: 80vw;
+  max-width: 1100px;
+  > li {
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    line-height: $navbar;
+  }
+  > li:not(:last-child) {
+    margin-right: 24px;
+  }
+  li a {
+    text-decoration: none;
+  }
+}
+
+.menu-second {
+  background-color: $light-gray;
+  color: #000;
+  display: none;
+  list-style: none;
+  padding: 0;
+  position: fixed;
+  text-align: left;
+  > li {
+    padding: 12px 24px;
+    line-height: 1.2em;
+  }
+  > li:hover {
+    background-color: #ddd;
+  }
+}
+.menu-first:hover > .menu-second {
+  display: block;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu-entry-button {
+    background-color: $main-color;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 24px 0;
+    position: static;
+  }
+  .menu-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vw;
+    > li {
+      color: inherit;
+      display: block;
+      float: none;
+      margin: 0 !important;
+      line-height: 7vh;
+    }
+  }
+  .menu-second {
+    background-color: inherit;
+    display: block;
+    position: static;
+    text-align: center;
+    > li {
+      line-height: 7vh;
+      padding: 0;
+    }
+  }
+  .menu-hamburger {
+    display: block;
+  }
+}
+#menu-check:checked {
+  ~ .menu-list {
+    display: block;
+  }
+  ~ .menu-hamburger .menu-bars {
+    display: none;
+  }
+  ~ .menu-hamburger .menu-close {
+    display: block;
+  }
+}
+
+
+//ヘッダーのナビゲーションバー
+.menu {
+  background-color: $main-color;
+  height: $navbar;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  input {
+    display: none;
+  }
+}
+
+.menu-close {
+  background-color: #ff6a33;
+  border-radius: 0 0 0 8px;
+  display: none;
+  padding: 24px 14px;
+  position: absolute;
+  right: -24px;
+  top: -14px;
+}
+
+//申し込みボタン
+.menu-entry-button {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #555;
+  display: inline;
+  font-weight: bold;
+  line-height: 24px;
+  margin: calc((60px - 40px) / 2);
+  padding: 8px 36px;
+  position: absolute;
+  right: 10vw;
+  text-decoration: none;
+}
+
+
+  //フッターのシェアボタン
+  .share {
+    a {
+      float: left;
+      line-height: 60px;
+      height: 60px;
+      width: 50%;
+      text-decoration-line: none;
+    }
+    &::after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+    .share-twitter,
+    .share-facebook {
+      display: block;
+    }
+  }
+  .share-facebook {
+    background-color: $facebook-color;
+  }
+  .share-twitter {
+    background-color: $twitter-color;
+  }
+  .share-line {
+    background-color: $line-color;
+    display: none;
+  }
+  @media screen and (max-width: 800px) {
+    .share a {
+      width: 100%;
+    }
+    .share-line {
+      display: block;
+    }
+  }
