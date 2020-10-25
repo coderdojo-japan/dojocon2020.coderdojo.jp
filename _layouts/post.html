@@ -1,48 +1,51 @@
 ---
 layout: default
 ---
-{% if page.categories %}<div class="post-head">
+{% if page.categories %}
+<div class="post-head">
   <h2>{{page.categories[0] | upcase }}</h2>
-</div>{% endif %}
-<div class="post">
-<h1 class="post-title">{{ page.title }}</h1>
-{% if page.categories[0] == "news" %}
-  <p class="post-date">{{ page.date | date:"%Y.%-m.%-d" }}</p>
-{% elsif page.categories[0] == "workshop" or page.categories[0] == "session" %}
-  <div class="tags">
-    {% for tag in page.tags %}
-      <span class="tag-post">{{tag}}</span>
-    {% endfor %}
-  </div>
-  <p class="post-time">{{page.time}}</p>
-{%endif%}
-{% if page.thumbnail %}<img src="{{site.url}}/img/post/{{page.thumbnail}}" alt="thumbnail" class="thumbnail">{% elsif page.categories[0] == "news" %}
-<img src="{{site.url}}/img/post/thumbnail_news.png" alt="thumbnail" class="thumbnail">
-{% endif %}
-<div class='post-content'>
-  {{ content }}
 </div>
-{% if page.categories[0] != "news" and page.speakers %}
-{% if page.categories[0] == "session" %}
-<h2>スピーカー</h2>
-{% elsif page.categories[0] == "workshop" %}
-<h2>講師・スタッフ</h2>
 {% endif %}
-  <div class="speakers">
-    {% for speaker in page.speakers %}
-    {% assign speaker_data = site.data.speaker | where: "name", speaker %}
-      <div class="speaker">
-        {% for one_speaker in speaker_data %}
-        {% if one_speaker.img %}<img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">{% endif %}
-        <h3>{{one_speaker.name}}</h3>
-        {% if one_speaker.position %}<p>{{ one_speaker.position }}</p>{% endif %}
-        {% if one_speaker.site %}<a href="{{one_speaker.site}}" target="_blank" rel="nofollow" class="link"><i class="fas fa-globe"></i></a>{% endif %}
-        {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" target="_blank" rel="nofollow" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-        {% if one_speaker.facebook %}<a href="{{one_speaker.facebook}}" target="_blank" rel="nofollow" class="link share-facebook"><i class="fab fa-facebook-square"></i></a>{% endif %}
-        <p class="speaker-description">{{one_speaker.description }}</p>
-        {% endfor %}
-      </div>
-    {% endfor %}
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {% if page.categories[0] == "news" %}
+    <p class="post-date">{{ page.date | date:"%Y.%-m.%-d" }}</p>
+  {% elsif page.categories[0] == "workshop" or page.categories[0] == "session" %}
+    <div class="tags">
+      {% for tag in page.tags %}
+        <span class="tag-post">{{tag}}</span>
+      {% endfor %}
+    </div>
+    <p class="post-time">{{page.time}}</p>
+  {%endif%}
+
+  <div class='post-content'>
+    {{ content }}
   </div>
-{% endif %}
+
+  {% if post.categories[0] != "news" and page.speakers %}
+  {% if post.categories[0] == "session" %}
+  <h2>スピーカー</h2>
+  {% elsif post.categories[0] == "workshop" %}
+  <h2>講師・スタッフ</h2>
+  {% endif %}
+    <div class="speakers">
+      {% for speaker in post.speakers %}
+      {% assign speaker_data = site.data.speaker | where: "name", speaker %}
+        <div class="speaker">
+          {% for one_speaker in speaker_data %}
+          {% if one_speaker.img %}<img src="{{site.url}}/img/speaker/{{one_speaker.img}}" alt="{{one_speaker.name}}" class="speaker-img">{% endif %}
+          <h3>{{one_speaker.name}}</h3>
+          {% if one_speaker.position %}<p>{{ one_speaker.position }}</p>{% endif %}
+          {% if one_speaker.site %}<a href="{{one_speaker.site}}" target="_blank" rel="nofollow" class="link"><i class="fas fa-globe"></i></a>{% endif %}
+          {% if one_speaker.twitter %}<a href="https://twitter.com/{{one_speaker.twitter}}" target="_blank" rel="nofollow" class="link share-twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+          {% if one_speaker.facebook %}<a href="{{one_speaker.facebook}}" target="_blank" rel="nofollow" class="link share-facebook"><i class="fab fa-facebook-square"></i></a>{% endif %}
+          <p class="speaker-description">{{one_speaker.description }}</p>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>

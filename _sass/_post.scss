@@ -1,0 +1,49 @@
+//記事詳細時の記事
+.post {
+  margin-bottom: 12vh;
+  text-align: left;
+  h1 {
+    text-align: center;
+  }
+  .post-date,
+  .post-time {
+    text-align: center;
+  }
+
+  .post-content {
+    padding: 24px 0;
+    max-width: 800px;
+    margin: auto;
+    img {
+      display: block;
+      width: 100%;
+      margin: auto;
+      max-width: 600px;
+    }
+  }
+
+
+}
+
+.post-head {
+  background-color: $main-color;
+  color: #fff;
+  margin-bottom: 60px;
+  padding: $navbar 0;
+  h2 {
+    margin: 0;
+  }
+}
+.post-title {
+  font-size: 1.6em;
+}
+
+//記事詳細時タグ
+.tag-post {
+  background-color: $light-gray;
+  border-radius: 1em;
+  display: inline-block;
+  margin: 6px;
+  padding: 4px 24px;
+}
+

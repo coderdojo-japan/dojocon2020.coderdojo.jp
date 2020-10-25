@@ -1,6 +1,6 @@
 <article class="article article-news">
   <a href="{{ site.url }}{{ post.url }}">
-    <img src="{{site.url}}/img/post/{{post.thumbnail}}" alt="thumbnail of {{ post.title }}" class="article-thumbnail" loading="lazy">
+    {% if post.thumbnail %}<img src="{{site.url}}/img/post/{{post.thumbnail}}" alt="thumbnail of {{ post.title }}" class="article-thumbnail" loading="lazy">{% endif %}
     <p class="article-date">{{ post.date | date:"%Y.%-m.%d" }}</p>
     <h3 class="article-title">{{ post.title }}</h3>
   </a>
