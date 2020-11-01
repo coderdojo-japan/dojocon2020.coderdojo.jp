@@ -118,6 +118,14 @@
       text-align: center;
       width: 5em;
     }
+    @media screen and (max-width: 600px) {
+      margin: 0;
+      h3 {
+        width: 100%;
+        padding: 0.1rem 0;
+        margin: .5rem auto .5rem auto;
+      }
+    }
   }
 
   #page-top a {
