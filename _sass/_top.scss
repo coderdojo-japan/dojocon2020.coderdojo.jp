@@ -1,0 +1,493 @@
+.top-contents {
+  .article {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px rgba($gray, 0.3);
+    float: left; //横並び
+    margin: 12px 8px;
+    text-align: left;
+    a {
+      text-decoration: none; //外部リンクの下線消す
+    }
+  }
+
+  .article-contest {
+    padding: 4vw;
+    margin: 6px 10%;
+    width: calc(80% - 8vw);
+    .article-thumbnail {
+      height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
+    }
+  }
+
+  .article-date {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+
+  //ワークショップの記事一覧
+  .article-event {
+    padding: 2vw;
+    width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
+    .article-thumbnail {
+      height: calc(
+        ((80vw / 2) - 4vw - 16px) * (400 / 600)
+      ); //縦横比率が2:3になるように設定
+      max-height: calc(((800px / 2) - 40px - 16px) * (400 / 600));
+    }
+  }
+  //セッションの記事一覧
+  .article-session {
+    padding: 2vw;
+    width: calc(50% - 4vw - 16px);
+    .article-thumbnail {
+      height: auto !important;
+    }
+  }
+
+  //ニュースの記事一覧
+  .article-news {
+    padding: 2vw;
+    transition: 0.3s;
+    width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
+    .article-thumbnail {
+      height: calc(
+        ((80vw / 3) - 4vw - 16px) * (400 / 600)
+      ); //縦横比率が2:3になるように設定
+      max-height: calc(((800px / 3) - 40px - 16px) * (400 / 600));
+    }
+    &:hover {
+      color: $main-color;
+      transition: 0.3s;
+    }
+  }
+
+  //記事のサムネイル画像
+  .article-thumbnail {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  //記事のタイトル
+  .article-title {
+    margin-top: 4px;
+  }
+
+  //画面幅800px以下のときに記事一覧の一つ一つを幅いっぱい表示する(レスポンシブ対応)
+  @media screen and (max-width: 800px) {
+    .article {
+      padding: 4vw;
+      flex: 0 0 120px;
+      margin: auto;
+      min-width: 70%;
+      width: calc(100% - 8vw);
+      .article-thumbnail {
+        height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
+      }
+    }
+    .article-news .article-title {
+      height: auto;
+    }
+  }
+
+  //セクションのサムネイル画像
+  .img-section {
+    margin-bottom: 2vw;
+    img {
+      border-radius: 4px;
+      height: 20vw;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  //開催概要の項目
+  .outline-one {
+    margin: 12px;
+    text-align: left;
+    * {
+      display: inline-block;
+      margin: 0;
+    }
+    h3 {
+      background-color: $main-color;
+      color: #fff;
+      margin-right: 12px;
+      padding: 4px 12px;
+      text-align: center;
+      width: 5em;
+    }
+  }
+
+  #page-top a {
+    background-color: $light-blue;
+    border-radius: 35px;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 70px;
+    height: 70px;
+    margin: 4vw;
+    opacity: 0.6;
+    position: fixed;
+    right: 0;
+    transition: 0.3s;
+    width: 70px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .ph {
+    display: none;
+  }
+
+  //会場地図(google map)
+  .map {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  //スピーカーの情報の配置
+  .speaker {
+    margin-bottom: 48px;
+  }
+  .speaker-description {
+    clear: both;
+  }
+  .speaker-img {
+    border-radius: 60px;
+    float: left;
+    margin: 0 12px 12px 0;
+    width: 120px;
+  }
+
+
+  //スピーカーのサイトなどリンク
+  .link {
+    background-color: $main-color;
+    border-radius: calc(12px + 0.5em);
+    color: #fff;
+    padding: 12px;
+    margin-right: 6px;
+  }
+
+  //後援のリスト設定クリア
+  .list-simple {
+    list-style: none;
+    margin-top: 24px;
+    padding: 0;
+    a {
+      text-decoration: none;
+    }
+  }
+
+
+  //スポンサー
+  #sponsors h3 {
+    background: rgba(15, 175, 250, 0.1);
+    border-radius: 10px;
+    clear: both;
+    color: #646464;
+    font-size: 14px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+  }
+  .sponsors-rank {
+    letter-spacing: -1em;
+    margin-bottom: $navbar;
+    text-align: left;
+    img {
+      display: block;
+      height: 16vw;
+      max-height: 120px;
+      float: left;
+      object-fit: contain;
+    }
+  }
+  .sponsors-rank-img {
+    display: block;
+    height: 16vw;
+    max-height: 120px;
+    float: left;
+    object-fit: contain;
+  }
+  
+  .individual {
+    text-align: center;
+    list-style: none;
+    letter-spacing: 0.08em;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+    li:not(:last-child)::after {
+      content: ',';
+    }
+  }
+  
+  .sponsor-gold {
+    padding: 4vw;
+    width: calc(100% - 8vw);
+  }
+  .sponsor-silver {
+    padding: 2vw;
+    width: calc(50% - 4vw);
+  }
+  .sponsor-bronze,
+  .sponsor-in-kind {
+    padding: 1vw;
+    width: calc(25% - 2vw);
+  }
+
+  //実行委員一覧
+  .staff {
+    float: left;
+    padding: 1.5vw;
+    width: calc(20% - 3vw);
+    p {
+      font-size: 14px;
+      margin-top: 1vw;
+      transition: 0.5s;
+      width: 100%;
+      height: 25px;
+    }
+  }
+  .staff:hover p {
+    font-weight: bold;
+    transition: 0.5s;
+  }
+
+  .staff-image {
+    height: calc(16vw - 3vw);
+    max-height: 170px;
+    img {
+      border-radius: 50%;
+      box-shadow: 0 0 3px #d1d3e4;
+      transition: 0.5s;
+      width: 100%;
+    }
+  }
+  .staff-image :hover {
+    border-radius: 40%;
+    box-shadow: 0 0 10px #d1d3e4;
+    transition: 0.5s;
+  }
+
+  @media screen and (max-width: 800px) {
+    .staff {
+      width: calc(33% - 3vw);
+    }
+    .staff-image {
+      height: calc(26vw - 3vw);
+    }
+  }
+
+  .table-column {
+    float: left;
+    margin: 0 4px;
+    h3 {
+      font-size: 1em;
+      margin: 0;
+    }
+    p {
+      font-size: 12px;
+      margin: 0;
+    }
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      background-color: $light-gray;
+      display: block;
+      margin-bottom: 8px;
+      padding: 10px;
+    }
+  }
+  .table {
+    z-index: 1;
+    input {
+      display: none;
+    }
+    h2 {
+      background-color: $light-gray;
+      color: $brown;
+      float: left;
+      font-size: 1em;
+      margin: 4px;
+      padding: 8px;
+      text-align: center;
+    }
+  }
+  .table-content {
+    display: none;
+    position: relative;
+    width: calc(100% - 58px - 16px - 8px);
+    li {
+      position: absolute;
+    }
+  }
+  .table-session {
+    li {
+      width: 100%;
+    }
+    .session-tag {
+      background-color: #fff;
+    }
+  }
+  .table-workshop {
+    li {
+      width: calc(33% - 20px);
+    }
+  }
+  .table-head {
+    width: calc((100% - 58px) / 2 - 16px - 8px);
+  }
+  .table-time {
+    clear: both;
+    width: 50px;
+    li {
+      font-size: 12px;
+      font-weight: bold;
+      height: calc(240px - 20px - 8px);
+    }
+  }
+  .table-timehead {
+    width: calc(50px - 16px);
+  }
+  
+  #radio-session:checked ~ .table-session,
+  #radio-workshop:checked ~ .table-workshop {
+    display: block;
+  }
+  .table input:checked + label h2 {
+    background-color: $light-blue;
+    color: #fff;
+  }
+  @media screen and (max-width: 1000px) {
+    .table-head {
+      width: calc((100% - 58px) - 16px - 8px);
+    }
+    .table-timehead {
+      height: calc(24px * 2 + 16px + 8px);
+    }
+  }
+  .tags {
+    text-align: center;
+  }
+  //ワークショップのタグ一覧
+  .tag-workshop {
+    background: linear-gradient(transparent 70%, $light-blue 70%);
+  }
+  //セッションのカテゴリ
+  .session-tag {
+    background-color: $light-gray;
+    margin-bottom: 8px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  //トップページのテキスト類
+  .text {
+    margin: auto;
+    width: 80%;
+  }
+
+  //記事サムネイル
+  .thumbnail {
+    margin: 0 10%;
+    width: 80%;
+  }
+
+  .top{
+    position: relative;
+    height: 100vh;
+    //background: linear-gradient(rgba(235,255,209,0.5),rgba(235,255,209,0.5)), url("/img/mainvisual.png");
+    background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url("/img/mainvisual.png");
+    background-size: contain;
+    background-position:center center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .top-texts {
+      h1 {
+        color: $main-color;
+        font-size: 6em;
+        text-align: center;
+        font-family: 'Saira Semi Condensed', sans-serif;
+        line-height: 6rem;
+        margin: 0 0 1rem;
+        text-shadow: 
+          2px  2px 1px $light-green,
+          -2px 2px 1px $light-green,
+          2px -2px 1px $light-green,
+          -2px -3px 1px $light-green,
+          2px 0px 1px $light-green,
+          0px 2px 1px  $light-green,
+          -2px 0px 1px $light-green,
+          0px -2px 1px $light-green;  
+      }
+
+      h2 {
+        color: #fff;
+        background-color: $secondary-color;
+        font-size: 3em;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin: 0 0 1rem 0;
+      }
+
+      h3 {
+        color: $red;
+        background-color: $light-red;
+        font-weight: bold;
+        font-size: 2em;
+        margin: 0 0 .5rem 0;
+      }
+
+      @media screen and (max-width: 600px) {
+        h1 {
+          font-size: 5em; 
+          text-align: center;
+          line-height: 5rem;
+        }
+
+        h2 {
+          font-size: 1.8em;
+          margin: 0 1rem 1rem 1rem;
+        }
+
+        h3 {
+          font-size: 1.3em;
+          margin: 0 1rem .5rem 1rem;
+        }
+      }
+    }
+  }
+
+  .socials-list {
+    a {
+      font-size: 6em;
+    }
+  }
+
+  .section-colored {
+    color: #fff;
+    background-color: $main-color;
+  }
+
+  .section-white {
+    background-color: #fff;
+  }
+
+  .section-gray {
+    background-color: $light-gray;
+  }
+}

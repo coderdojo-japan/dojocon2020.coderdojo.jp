@@ -1,0 +1,16 @@
+<article class="article article-session">
+  <div class="session-tag">
+    {{post.tags[0]}}
+  </div>
+  <img src="{{site.url}}/img/post/{{post.thumbnail}}" alt="thumbnail of {{ post.title }}" class="article-thumbnail" loading="lazy">
+  <h3 class="article-title">{{ post.title }}</h3>
+  <p>
+    {% for speaker in post.speakers %}
+    {{speaker}}<br>
+    {%endfor%}
+  </p>
+  <p>{{post.time}}</p>
+  <a href="{{ site.url }}{{ post.url }}" class="button">
+    もっと見る
+  </a>
+</article>

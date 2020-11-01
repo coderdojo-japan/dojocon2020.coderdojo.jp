@@ -1,0 +1,7 @@
+#- name: 表示する名前。スペースも使用可 (例:三橋 優希)
+#  img: アイコン画像。/img/speaker 内に入れる。「表示する名前の英数字表記.jpg」というファイル名が好ましい。 (例: mihashiyuki.jpg)
+#  site: WebサイトのURL。"https://"から含めること。 (例: https://yuki384.github.io)
+#  twitter: Twitterのユーザー名。@は要らない。(例: YukiMihashi)
+#  facebook: FacebookのURL。(例: https://www.facebook.com/profile.php?id=100014694420954)
+#  position: 肩書。(例: CoderDojo中野メンター)
+#  description: 自己紹介文。140文字程度。
