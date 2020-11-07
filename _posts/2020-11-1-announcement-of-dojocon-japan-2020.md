@@ -2,7 +2,7 @@
 layout: post
 title:  "DojoCon Japan 2020 開催のお知らせ"
 categories: news
-thumbnail: profile_a.png
+thumbnail: thumbnail_news.png
 permalink: /posts/1/
 ---
 

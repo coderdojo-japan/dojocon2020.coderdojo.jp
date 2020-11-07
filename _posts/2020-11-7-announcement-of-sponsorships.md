@@ -2,7 +2,7 @@
 layout: post
 title:  "DojoCon Japan 2020 スポンサーシップのご案内"
 categories: news
-thumbnail: profile_a.png
+thumbnail: thumbnail_news.png
 permalink: /posts/3/
 ---
 
