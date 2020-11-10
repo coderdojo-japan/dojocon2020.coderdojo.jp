@@ -48,3 +48,88 @@
   padding: 4px 24px;
 }
 
+//セッション、ワークショップの記事一覧
+.post-content {
+    .article {
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0px 0px 12px rgba($gray, 0.3);
+        float: left; //横並び
+        margin: 12px 8px;
+        text-align: left;
+
+        a {
+            text-decoration: none; //外部リンクの下線消す
+        }
+    }
+
+    .article-date {
+        font-weight: bold;
+        margin-bottom: 4px;
+    }
+
+    //ワークショップの記事一覧
+    .article-event {
+        padding: 2vw;
+        width: calc(50% - 4vw - 16px); //1行に2記事入るようにする
+
+        .article-thumbnail {
+            height: calc(((80vw / 2) - 4vw - 16px) * (400 / 600)); //縦横比率が2:3になるように設定
+            max-height: calc(((800px / 2) - 40px - 16px) * (400 / 600));
+        }
+    }
+
+    //ワークショップのタグ一覧
+    .tag-workshop {
+        background: linear-gradient(transparent 70%, $light-blue 70%);
+    }
+
+    //セッションの記事一覧
+    .article-session {
+        padding: 2vw;
+        width: calc(50% - 4vw - 16px);
+
+        .article-thumbnail {
+            height: auto !important;
+        }
+    }
+
+    //セッションのカテゴリ
+    .session-tag {
+        background-color: $light-gray;
+        margin-bottom: 8px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    //記事のサムネイル画像
+    .article-thumbnail {
+        border-radius: 4px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    //記事のタイトル
+    .article-title {
+        margin-top: 4px;
+    }
+
+    //画面幅800px以下のときに記事一覧の一つ一つを幅いっぱい表示する(レスポンシブ対応)
+    @media screen and (max-width: 800px) {
+        .article {
+            padding: 4vw;
+            flex: 0 0 120px;
+            margin: 6px 8px;
+            min-width: 70%;
+            width: calc(100% - 8vw);
+
+            .article-thumbnail {
+                height: calc(((80vw / 1.5) - 2vw) * (400 / 600));
+            }
+        }
+
+        .article-news .article-title {
+            height: auto;
+        }
+    }
+}
