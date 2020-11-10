@@ -2,7 +2,8 @@
 layout: post
 title: "タイムテーブル"
 ---
-<img src="{{site.url}}/img/timetable.png" alt="タイムテーブル" style="width: 100%;">
+<p>現在作成中です！</p>
+<!--img src="{{site.url}}/img/timetable.png" alt="タイムテーブル" style="width: 100%;"-->
 
 <!--
   <div class="table">
