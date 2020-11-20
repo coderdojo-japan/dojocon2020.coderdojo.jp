@@ -60,9 +60,10 @@ DojoCon Japan 2020 のテーマ、「Beyond the Distance」
 
 ## 募集期間
 
-募集締め切りを延期して締切日が11/23 → 11/30になりました！
+~~募集期間： 11/2 ~ 11/30~~
 
-募集期間： 11/2 ~ 11/30
+<span style="color: red; ">募集期間を延長して **11/23 → 11/30** になりました！ </span>  
+**募集期間： 11/2 ~ 11/30**
 
 ## 参加資格
 
@@ -131,7 +132,7 @@ YouTube の限定公開などの紹介動画 URL を一緒に添付してくだ�
 
 ## お問い合わせ先
 
-dojocon2020@coderdojo.jp
+[こちらのお問い合わせフォーム](http://localhost:4000/#contactus) からお願いします。
 
 <a href="https://dojocon2020.coderdojo.jp/files/contest-rule-2020.pdf" class="button" target="_blank" rel="noopener">参加規約を確認</a>
 <a href="https://forms.gle/FpUnUcAspEjqfc2S7" class="button" target="_blank" rel="noopener">作品を応募する</a>
