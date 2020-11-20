@@ -132,7 +132,7 @@ YouTube の限定公開などの紹介動画 URL を一緒に添付してくだ�
 
 ## お問い合わせ先
 
-[こちらのお問い合わせフォーム](http://localhost:4000/#contactus) からお願いします。
+[こちらのお問い合わせフォーム](/#contactus) からお願いします。
 
 <a href="https://dojocon2020.coderdojo.jp/files/contest-rule-2020.pdf" class="button" target="_blank" rel="noopener">参加規約を確認</a>
 <a href="https://forms.gle/FpUnUcAspEjqfc2S7" class="button" target="_blank" rel="noopener">作品を応募する</a>
