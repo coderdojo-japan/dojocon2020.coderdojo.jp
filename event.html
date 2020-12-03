@@ -30,15 +30,6 @@ thumbnail: event.png
 
             <img src="img/event/{{data.img}}" class="w-100"alt="">
 
-                
-            {% if data.profile-img %}
-                <div class="my-3">
-                    <img src="img/session/{{data.profile-img}}" class="w-100 px-5" alt="">
-                </div>
-            {%endif%}
-
-            <p class="session-speaker-name">{{data.speaker}} {% if data.affiliation %}（ {{data.affiliation}} ）{%endif%}</p>
-
             <p>{{data.text}}</p>
 
         </div>
