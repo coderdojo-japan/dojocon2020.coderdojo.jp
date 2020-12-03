@@ -1,24 +1,27 @@
 <header>
-  <nav class="menu">
-    <input type="checkbox" id="menu-check">
-    <label for="menu-check" class="menu-hamburger"><img src="{{site.url}}/img/svg/bars.svg" alt="メニュー" class="menu-bars"><img src="{{site.url}}/img/svg/close.svg" alt="閉じる" class="menu-close"></label>
-    <ul class="menu-list">
-      <li><a href="{{site.url}}">ホーム</a></li>
-      <li class="menu-first"><a href="{{site.url}}#outline">概要</a>
-        <ul class="menu-second">
-          <li><a href="{{site.url}}#about">DojoConについて</a></li>
-          <li><a href="{{site.url}}#outline">開催概要</a></li>
-          <!-- <li><a href="{{site.url}}#access">アクセス</a></li> -->
-        </ul>
-      </li>
-      <li><a href="{{site.url}}#news">お知らせ</a></li>
-      <!-- <li class="menu-first"><a href="{{site.url}}/timetable">タイムテーブル</a>
-        <ul class="menu-second">
-        <li><a href="{{site.url}}/session">セッション</a></li>
-        <li><a href="{{site.url}}/workshop">ワークショップ</a></li>
-      </ul></li> -->
-      <li><a href="{{site.url}}/contest">コンテスト</a></li>
-      <li><a href="{{site.url}}#contactus">お問い合わせ</a></li>
-    </ul>
+
+  <nav class="navbar navbar-expand-lg navbar-dark text-white bg-main fixed-top">
+    <a class="navbar-brand" href="{{site.url}}">
+      <img src="{{site.url}}/img/nav-icon.png" height="40px" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-nav">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="{{site.url}}">ホーム <span class="sr-only"></span></a>
+        <a class="nav-item nav-link active" href="{{site.url}}#outline">概要</a>
+        <a class="nav-item nav-link active" href="{{site.url}}#news">お知らせ</a>
+        <a class="nav-item nav-link active" href="{{site.url}}/contest">コンテスト</a>
+        <!--
+        <a class="nav-item nav-link active" href="{{site.url}}/workshop">ワークショップ</a>
+        <a class="nav-item nav-link active" href="{{site.url}}/session">セッション</a>
+        <a class="nav-item nav-link active" href="{{site.url}}/event">企画</a> 
+        -->
+        <a class="nav-item nav-link active" href="{{site.url}}#contactus">お問い合わせ</a>        
+      </div>
+    </div>
+
   </nav>
+
 </header>

@@ -3,7 +3,7 @@
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0px 0px 12px rgba($gray, 0.3);
-    float: left; //横並び
+    //float: left; //横並び
     margin: 12px 8px;
     text-align: left;
     a {
@@ -23,6 +23,7 @@
   .article-date {
     font-weight: bold;
     margin-bottom: 4px;
+    text-align: left;
   }
 
   //ワークショップの記事一覧
@@ -47,14 +48,16 @@
 
   //ニュースの記事一覧
   .article-news {
-    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    
     transition: 0.3s;
-    width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
+    //width: calc(33% - 4vw - 16px); //1行に3記事入るようにする
     .article-thumbnail {
-      height: calc(
-        ((80vw / 3) - 4vw - 16px) * (400 / 600)
-      ); //縦横比率が2:3になるように設定
-      max-height: calc(((800px / 3) - 40px - 16px) * (400 / 600));
+      // height: calc(
+      //   ((80vw / 3) - 4vw - 16px) * (400 / 600)
+      // ); //縦横比率が2:3になるように設定
+      // max-height: calc(((800px / 3) - 40px - 16px) * (400 / 600));
     }
     &:hover {
       color: $main-color;
@@ -109,7 +112,7 @@
       display: inline-block;
       margin: 0;
     }
-    h3 {
+    h5 {
       background-color: $main-color;
       color: #fff;
       margin-right: 12px;
@@ -119,7 +122,7 @@
     }
     @media screen and (max-width: 600px) {
       margin: 0;
-      h3 {
+      h5 {
         width: 100%;
         padding: 0.1rem 0;
         margin: .5rem auto .5rem auto;
@@ -401,8 +404,7 @@
 
   //トップページのテキスト類
   .text {
-    margin: auto;
-    width: 80%;
+    
   }
 
   //記事サムネイル
@@ -497,4 +499,24 @@
   .section-gray {
     background-color: $light-gray;
   }
+}
+
+
+.title-sponsor {
+  position: relative;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-sponsor:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: '';
+  border-radius: 3px;
+  background: #000;
 }
