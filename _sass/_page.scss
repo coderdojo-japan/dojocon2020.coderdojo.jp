@@ -14,13 +14,24 @@
 
 
 .badge-must{
-    font-weight: weight;
+    font-weight: bold;
     font-size: 14px;
     background-color: $light-red;
 }
 
 .badge-none{
-    font-weight: weight;
+    font-weight: bold;
     font-size: 14px;
     background-color: $light-blue;
+}
+
+.badge-ws{
+    font-weight: bold;
+    font-size: 14px;
+    background-color: $light-blue;
+}
+
+
+.session-speaker-name{
+    font-weight: bold;
 }

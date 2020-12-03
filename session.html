@@ -1,8 +1,52 @@
 ---
 layout: default
+title: "セッション"
 copy: "- Beyond the distance(距離を超えて) -"
+thumbnail: session.png
 ---
-<div class="top-contents">
 
-    
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-12">
+            <h1>セッション</h1>
+            <p>DojoCon Japan 2020 で開催されるセッションをご紹介します</p>
+        </div>
+    </div>
+
+    <div class="row text-left">
+        
+        {% for data in site.data.sessions %}
+
+        <div class="col-md-6 col-12 p-3" id="{{data.title}}">
+            <h4 class="ws-title">{{data.title}}</h4>
+
+            <p>
+                {{data.time}}
+                {% if data.tag %}
+                    <span class="badge badge-ws">{{data.tag}}</span> 
+                {% endif %}
+
+                </p> 
+
+                
+            {% if data.profile-img %}
+                <div class="my-3">
+                    <img src="img/session/{{data.profile-img}}" class="w-100 px-5" alt="">
+                </div>
+            {%endif%}
+
+            <p class="session-speaker-name">{{data.speaker}} {% if data.affiliation %}（ {{data.affiliation}} ）{%endif%}</p>
+
+            <p>{{data.text}}</p>
+
+        </div>
+
+        {% endfor %}
+
+        
+       
+
+    </div>
+
 </div>
