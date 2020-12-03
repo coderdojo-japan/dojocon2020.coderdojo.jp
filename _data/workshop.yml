@@ -1,0 +1,104 @@
+# - title:  ワークショップタイトル
+#   badge:  must or none
+#   time:   時間
+#   text:   説明
+#   limit:  定員
+#   url:    Doorkeeper URL
+
+- title: モブプログラミング
+  badge: must
+  time: 13:00-15:00
+  text: みんなでワイワイ☆Scratchでモブプログラミングにチャレンジ!世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか?さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。
+  limit: 8
+  url: https://dojocon-japan.doorkeeper.jp/events/114679
+
+- title: ハックフォープレイ30分コース
+  badge: must
+  time: 13:00-13:30
+  text: あそべるプログラミング・ハックフォープレイを使って、JavaScript でゲームを作りましょう！初心者の方でもご参加いただけます。
+  limit: 8
+  url: https://dojocon-japan.doorkeeper.jp/events/114695
+
+- title: ドット絵 お絵かき
+  badge: must
+  time: 13:00-16:30
+  text: Google スプレッドシートを使ったピクセルアート体験です。好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪
+  limit: 30
+  url: https://dojocon-japan.doorkeeper.jp/events/114698
+
+- title: micro:bit（マイクロビット）①micro:bitとサーボでしゃくとり虫を作ろう
+  badge: must
+  time: 13:00 - 13:45
+  text: ①micro:bitとサーボでしゃくとり虫を作ろう【micro:bit不要】<br>CoderDojo 福岡と太宰府でやっている、micro:bitとサーボを使ってしゃくとり虫を作るワークショップを紹介します。<br>2台のmicro:bitを使って、1台はしゃくとり虫本体、もう1台はリモコンというちょっとだけ贅沢なmicro:bit工作です。<br>Microsoft MakeCodeというビジュアルプログラミング環境でプログラミングする部分は体験していただきます。<br>そして、子ども達が（大人も！）よくはまる難しいポイントや、上手く作るためのコツをちょっとだけ伝授します！
+  limit: 20
+  url: https://dojocon-japan.doorkeeper.jp/events/114636
+
+- title: マインクラフト
+  badge: must
+  time: 13:00-14:30
+  text: マインクラフトの操作方法は理解しいているけど、コマンドの使い方がよくわからない人、コマンドブロックを使って何か作ってみたいけどやり方がよくわからない人のためのワークショップです。<br>マインクラフトJavaEdition1.16.2でのコマンドの使い方を説明します。<br>コマンドの使い方説明や便利なツールの紹介の後、実際にコマンドを使って簡単なものを作ります。コマンドの使い方を覚えて、マインクラフトでできることをさらに広げてみませんか？
+  limit: 20
+  url: https://dojocon-japan.doorkeeper.jp/events/114693
+
+- title: ハックフォープレイ90分コース
+  badge: must
+  time: 13:40-15:10
+  text: あそべるプログラミング・ハックフォープレイを使って、JavaScript でゲームを作りましょう！初心者の方でもご参加いただけます。
+  limit: 5
+  url: https://dojocon-japan.doorkeeper.jp/events/114696
+
+- title: micro:bit（マイクロビット）②Scratch作品をmicro:bitで動かそう
+  badge: must
+  time: 13:45 - 14:30
+  text: お馴染みCoderDojo紙屋町の教材、忍者vsこうもりの忍者をmicro:bitで操作できるように改造しましょう！<br>矢印キー操作をmicro:bitの傾きで操作できるように、スペースキーでの手裏剣操作をmicro:bitのボタンなどで操作できるように改造します。<br>micro:bitとスクラッチの連携方法の他、micro:bitのファームウェアの更新方法や、バージョンアップしたv2についての解説もします。<br>micro:bitは誰でも簡単に扱えることがわかるワークショップです。micro:bit本体とケーブル(USB TypeB)があればOK。この小型でかわいいマイコンボードを片手に、お気軽にご参加ください！
+  limit: 10
+  url: https://dojocon-japan.doorkeeper.jp/events/114688
+
+- title: ジュニアユースメンターによるScratch入門①
+  badge: must
+  time: 14:40-15:10
+  text: ニンジャのちょっと先輩、ジュニア・ユースメンターによるScratch初心者向けワークショップです。Scratchをまったくさわったことがない人でも大丈夫！<br>各地の道場で活動しているジュニア・ユースメンターも募集します。一緒にワークショップをしながら交流しよう！<br>ジュニアメンターになりたいニンジャが見学をすることもできます。
+  limit: 5
+  url: https://dojocon-japan.doorkeeper.jp/events/114689
+
+- title: ジュニアユースメンターによるScratch入門②
+  badge: must
+  time: 15:20-15:40
+  text: ニンジャのちょっと先輩、ジュニア・ユースメンターによるScratch初心者向けワークショップです。Scratchをまったくさわったことがない人でも大丈夫！<br>各地の道場で活動しているジュニア・ユースメンターも募集します。一緒にワークショップをしながら交流しよう！<br>ジュニアメンターになりたいニンジャが見学をすることもできます。
+  limit: 5
+  url: https://dojocon-japan.doorkeeper.jp/events/114690
+
+- title: メンター向けScratch初回
+  badge: must
+  time: 15:00-16:30
+  text: 初回参加者向けにCoder Dojo 柏 が行っているストーリーを紹介します。始めてScratchを触る人が、「ねこが左右に歩く」から始まり「ネコたたきゲーム」を作れるようになるまでのガイドです。
+  limit: 10
+  url: https://dojocon-japan.doorkeeper.jp/events/114694
+
+- title: Scratch ビデオモーションセンサー
+  badge: must
+  time: 15:10-16:10
+  text: Scratchのビデオモーションセンサーを使ったことがない方向けに行う初心者向けワークショップです。ビデオモーションセンサーを使い、カメラにうつった自分自身が動いた時に、それに反応する仕組みをScratchで作ります。
+  limit: 5
+  url: https://dojocon-japan.doorkeeper.jp/events/114692
+
+- title: EV3を動かそう(CoderDojo立川)
+  badge: must
+  time: 15:20-16:20
+  text: スクラッチを使って遠隔地のロボットを操作して遊ぼう！自宅にいながらロボットを動かすことができます。ロボットをうまく操作してコースをクリアしよう！※LEGOブロックをプログラミングして動かせるマインドストームEV3を使っています。
+  limit: 8
+  url: https://dojocon-japan.doorkeeper.jp/events/114697
+
+- title: オンラインツールお試し会
+  badge: must
+  time: 16:00-16:30
+  text: オンラインIT勉強会でよく使われるツールを使ってみましょう！大人向けのワークショップです。<br>※ツールはslidoとオンラインホワイトボードツール（miroまたはJamboard）を予定しています。<br<※詳細等はお申込の方に後日お知らせいたします。
+  limit: 5
+  url: https://dojocon-japan.doorkeeper.jp/events/114691
+
+- title: プログラミング喫茶
+  badge: none
+  time: 13:00-16:30
+  text: 
+  limit: 
+  url: 

@@ -1,0 +1,26 @@
+.ws-title{
+    font-weight: bold;
+    padding: 1rem 1rem;
+    border-left: 5px solid $main-color;
+    background: #f4f4f4;
+      
+}
+
+.btn-main{
+    background-color: $red;
+    color: white;
+}
+
+
+
+.badge-must{
+    font-weight: weight;
+    font-size: 14px;
+    background-color: $light-red;
+}
+
+.badge-none{
+    font-weight: weight;
+    font-size: 14px;
+    background-color: $light-blue;
+}
