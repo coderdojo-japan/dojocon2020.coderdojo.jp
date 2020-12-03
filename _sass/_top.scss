@@ -500,3 +500,23 @@
     background-color: $light-gray;
   }
 }
+
+
+.title-sponsor {
+  position: relative;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-sponsor:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: '';
+  border-radius: 3px;
+  background: #000;
+}
