@@ -8,7 +8,7 @@
 - title: モブプログラミング
   badge: must
   time: 13:00-15:00
-  text: みんなでワイワイ☆Scratchでモブプログラミングにチャレンジ!世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか?さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。
+  text: みんなでワイワイ☆Scratchでモブプログラミングにチャレンジ！世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか？さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。
   limit: 8
   url: https://dojocon-japan.doorkeeper.jp/events/114679
 
@@ -19,10 +19,10 @@
   limit: 8
   url: https://dojocon-japan.doorkeeper.jp/events/114695
 
-- title: ドット絵 お絵かき
-  badge: must
-  time: 13:00-16:30
-  text: Google スプレッドシートを使ったピクセルアート体験です。好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪
+- title: ドット絵おえかき
+  badge: double
+  time: 13:00-16:30 
+  text: Google スプレッドシートを使ったピクセルアート体験です。好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪<br>※当日飛び込み参加については別途ご案内
   limit: 30
   url: https://dojocon-japan.doorkeeper.jp/events/114698
 
@@ -78,11 +78,12 @@
 - title: Scratch ビデオモーションセンサー
   badge: must
   time: 15:10-16:10
-  text: Scratchのビデオモーションセンサーを使ったことがない方向けに行う初心者向けワークショップです。ビデオモーションセンサーを使い、カメラにうつった自分自身が動いた時に、それに反応する仕組みをScratchで作ります。
+  text: Scratchのビデオモーションセンサーを使ったことがない方向けに行う初心者向けワークショップです。Scratch ビデオモーションセンサーを使い、カメラにうつった自分自身が動いた時に、それに反応する仕組みをScratchで作ります。
+
   limit: 5
   url: https://dojocon-japan.doorkeeper.jp/events/114692
 
-- title: EV3を動かそう(CoderDojo立川)
+- title: スクラッチでEV3ロボットを遠隔操作しよう！
   badge: must
   time: 15:20-16:20
   text: スクラッチを使って遠隔地のロボットを操作して遊ぼう！自宅にいながらロボットを動かすことができます。ロボットをうまく操作してコースをクリアしよう！※LEGOブロックをプログラミングして動かせるマインドストームEV3を使っています。
@@ -96,7 +97,7 @@
   limit: 5
   url: https://dojocon-japan.doorkeeper.jp/events/114691
 
-- title: プログラミング喫茶
+- title: 子どもプログラミング喫茶
   badge: none
   time: 13:00-16:30
   text: 
