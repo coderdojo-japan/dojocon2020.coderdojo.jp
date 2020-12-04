@@ -40,6 +40,43 @@ thumbnail: session.png
 
             <p>{{data.text}}</p>
 
+            <a href="#{{data.profile-id}}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>
+
+            <div class="collapse mt-3" id="{{data.profile-id}}">
+
+                {% if data.tag == "パネルディスカッション" %}
+
+                    {% for speaker in data.speakers %}
+
+                        <p class="session-speaker-name">{{speaker.name}}（{{speaker.affiliation}}）<span class="badge badge-main">{{speaker.role}}</span></p> 
+
+                        <p>{{speaker.text}}</p>
+                        
+                        <ul>
+                        {% for link in speaker.sns %}
+
+                            <li><a href="{{link}}"><i class="fas fa-external-link-alt"></i> {{link}}</a></li>
+
+                        {% endfor %}
+                        </ul>
+
+                    {% endfor %}
+
+                
+
+                {% else %}
+                <p>{{data.profile-text}}</p>
+                <ul>
+                {% for link in data.sns %}
+                    <li><a href="{{link}}"><i class="fas fa-external-link-alt"></i> {{link}}</a></li>
+                {%endfor%}
+                </ul>
+                {% endif %}
+
+            </div>
+
+            
+
         </div>
 
         {% endfor %}
