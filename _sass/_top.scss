@@ -520,3 +520,23 @@
   border-radius: 3px;
   background: #000;
 }
+
+.top-contents-logo{
+  //width: 10vw;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.about-title{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-top: 3px solid $main-color;
+  background: #f4f4f4;
+}
+
+
+.list-style-none{
+  list-style: none;
+}

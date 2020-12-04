@@ -18,7 +18,9 @@ DojoCon Japan 2020 の入場チケット受付を開始します。
 * 参加される方はお1人ずつ [入場チケット] を入手してください。
 * 18歳以下でも Doorkeeper のアカウントを登録がある方は、入場チケットを登録してください。保護者による申し込みも同じチケットとなります。
 
-* 入場チケットの入手はこちらから <a href="https://dojocon-japan.doorkeeper.jp/events/114635">https://dojocon-japan.doorkeeper.jp/events/114635</a>
+<div class="text-center">
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114635" class="btn btn-main"><i class="fas fa-user-plus"></i> チケットを申し込む</a>
+</div>
 
 ## 開催概要
 **DojoCon Japan 2020　～Beyond the Distance～**
@@ -26,6 +28,11 @@ DojoCon Japan 2020 の入場チケット受付を開始します。
 * 時　間:　10:00-18:00 (18:00-懇親会) ※予定
 * 場　所:　オンライン (メインセッションは YouTube Live で行います。)
 * 参加費:　無料
+
+### 内容
+* セッション: <a href="{{site.url}}/session">{{site.url}}/session</a>
+* ワークショップ: <a href="{{site.url}}/workshop">{{site.url}}/workshop</a>
+* イベント企画: <a href="{{site.url}}/event">{{site.url}}/event</a>
 
 ## よくある質問
 * Q. 複数人で参加する時はどうしたら良いですか？

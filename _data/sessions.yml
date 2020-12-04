@@ -17,9 +17,11 @@
   tag: 基調講演
   speaker: 石原淳也
   affiliation: CoderDojo 調布 Champion
-  sns: https://twitter.com/jishiha
+  sns:
+    - https://twitter.com/jishiha
   profile-img: ishihara.jpg
   profile-text: 株式会社まちクエスト、合同会社つくる社においてウェブサービスやiPhoneアプリの開発を行うかたわら、CoderDojoの日本での立ち上げに関わり、現在はCoderDojo調布を主宰。著書に「Scratchではじめる機械学習」「Scratchで楽しく学ぶアート&サイエンス」「Raspberry Piではじめるどきどきプログラミング」。
+  profile-id: sp01
 
 - title: 親子で楽しもう Scratch x 機械学習
   time: 13:00-13:20
@@ -27,9 +29,14 @@
   tag: セミナー
   speaker: 小川智史
   affiliation: CoderDojo 嘉手納
-  sns: https://twitter.com/ogaworks/
+  sns: 
+    - https://www.facebook.com/ogaworks/
+    - https://twitter.com/ogaworks/
+    - https://www.instagram.com/ogaworks/
+    - https://www.ogaworks.com/"
   profile-img: ogawa.jpg
   profile-text: 2017年から沖縄県中部でCoderDojo 嘉手納 を運営しています。横浜生まれ東京育ち。2012年に沖縄県へ移住し、WEBサービスの開発や運営に携わっています。株式会社まちクエスト取締役。株式会社ゴーゴーラボ創業者。
+  profile-id: sp02
 
 - title: やるだけで仲良しレベルが爆上がりするオンラインイベントTOP5
   time: 13:30-13:50
@@ -37,9 +44,11 @@
   tag: セミナー
   speaker: 佐原慎也
   affiliation: CoderDojo瑞穂チャンピオン
-  sns: https://twitter.com/DojoMizuho
+  sns: 
+    - https://twitter.com/DojoMizuho
   profile-img: sahara.jpg
   profile-text: プログラム作ってご飯を食べている30台半ばの関西人です。CoderDojo瑞穂を運営して2年経ちました。
+  profile-id: sp03
 
 - title: 各地で活動して得られた経験、デモや紹介をしたあれこれ
   time: 14:00-14:20
@@ -47,9 +56,13 @@
   tag: セミナー
   speaker: 豊田陽介
   affiliation: CoderDojo メンター
-  sns: https://twitter.com/youtoy
+  sns: 
+    - https://twitter.com/youtoy
+    - https://qiita.com/youtoy
+    - https://note.com/youtoy"
   profile-img: toyota.jpg
   profile-text: 1980年、愛媛県生まれ。地元を離れて仙台で6年過ごし、その後は就職して埼玉へ。学生のころから子ども向けに、児童館・小学校・保育園などで、ワークショップ、マジック・バルーンアートなどのパフォーマンス、授業補助・保育補助等の様々な活動を続ける中で、プログラミングに関する活動も開始。20以上のCoderDojoにメンターとして参加。また、主に大人向けに、ビジュアルプログラミング・IoT・ガジェット等をテーマにした複数の技術コミュニティを単独・共同で主催し、イベント主催・運営を行っている。そして、イベントでの登壇や参加もしつつ、ちょっとした作品を作ったりもしている。ガジェットが大好きで、SNSのタイムラインには頻繁に購入したガジェットの写真がアップされている。これらの活動をプライベートで行いつつ、普段は企業の研究所に勤務。
+  profile-id: sp04
 
 - title: コロナ禍でどう運営してる？事例やノウハウをディスカッション
   time: 14:30-15:00
@@ -60,7 +73,46 @@
   sns: 
   profile-img: panel-discussion.png
   profile-text: 
+  profile-id: sp05
+  speakers:
+    - data: 
+      role: モデレータ
+      name: 宇津義一
+      affiliation: CoderDojo 名古屋
+      img: utsu.jpg
+      text: 普段はフリーランスのシステムエンジニア。CoderDojo名古屋チャンピオン。DojoCon Japan 2019 の実行委員長。日本アウトワードジャパンで冒険的な活動を通して自分の可能性に気づく体験を提供するインストラクターの経験あり。最近は自転車で数百キロ単位の走るブルベに興味あり。
+      sns:
+        - https://m.facebook.com/yoshikazu.utsu.5
 
+    - data: 
+      role: スピーカー
+      name: 安藤元気
+      affiliation: CoderDojo 名護 Champion
+      img: ando.jpg
+      text: CoderDojo名護の代表（チャンピオン）。2018年にCoderDojo宜野湾に子どもと参加したのがCoderDojoを知ったきっかけです。CoderDojo名護ではMinecraftやScratch、micro:bit、TJ3Bなどをやってます。
+      sns:
+        - https://twitter.com/CoderdojoNago
+        - https://www.facebook.com/CoderDojo.Nago
+        - http://coderdojo-nago.com
+
+    - data: 
+      role: スピーカー
+      name: 宇都宮真由美
+      affiliation: CoderDojo 伊予 Champion
+      img: utsunomiya.jpg
+      text: 2019年、夏休みに子どもとプログラミングをしようかと手に取った書籍でCoderDojoのことを知りました。愛媛県内に無かったので、同年9月、他のDojoに参加経験のないままCoderDojo伊予を立ち上げました。Web系フリーランスで3児の母。
+      sns:
+        - https://coderdojo-iyo.com/
+
+    - data: 
+      role: スピーカー
+      name: Katz Ueno
+      affiliation: CoderDojo 尾張 Champion
+      img: ueno.jpg
+      text: 2017年4月より、愛知県岩倉市で CoderDojo 尾張を立ち上げる。コンクリートファイブジャパン株式会社の Chief Communications Officer として、オープンソース CMS 「concrete5」の日本での普及活動を行っている。2児の父で、長女と一緒に Viscuit を楽しんでいる毎日。コロナ禍で新しいルールの元、オンライン・オフライン・ハイブリット開催を行っていて、ガイドラインを独自に作成したりしている。
+      sns:
+        - https://twitter.com/katzueno
+        - https://ja.katzueno.com
 
 - title: 福岡エリアのCoderDojoの輪
   time: 15:10-15:30
@@ -68,9 +120,11 @@
   tag: セミナー
   speaker: 杉山美鈴
   affiliation: CoderDojo 久留米 Champion
-  sns: https://www.facebook.com/sugimisu
+  sns: 
+    - https://www.facebook.com/sugimisu
   profile-img: sugiyama.jpg
   profile-text: 株式会社クローバーソフト代表取締役。大学生の時に映画を見て漠然と海辺でパソコンを広げられるハッカーになりたいと思ったのが、プログラミングを始めたきっかけです。現在はWebシステム開発やサイト制作、プログラミング講師業などを行っています。
+  profile-id: sp06
 
 - title: 合同誌「HelloDojo?」ができるまでをゆるーく・・
   time: 15:40-16:00
@@ -78,9 +132,11 @@
   tag: セミナー
   speaker: おーらん
   affiliation: CoderDojo 小机 Champion
-  sns: https://twitter.com/wowsawa
+  sns: 
+    - https://twitter.com/wowsawa
   profile-img: osawa.jpg
   profile-text: CoderDojo小机を運営しつつ、近隣の小学校ではプログラミングイベントを開催（2020年は断念）。本職は父親。ついでに会社員。
+  profile-id: sp07
 
 
 - title: CoderDojo Japan 活動報告
@@ -89,7 +145,14 @@
   tag: コミュニティ
   speaker: 安川要平
   affiliation: 一般社団法人 CoderDojo Japan
-  sns: https://twitter.com/CoderDojoJapan
+  sns: 
+    - https://www.facebook.com/coderdojo.jp/
+    - https://www.youtube.com/CoderDojoJapan
+    - https://github.com/coderdojo-japan
+    - https://twitter.com/CoderDojoJapan
+    - https://coderdojo.jp/
+  
+  
   profile-img: cdj.png
   profile-text: 2012年に下北沢オープンソースCafeのメンバーと共に日本初の CoderDojo を立ち上げ、当時から現在に到るまで、CoderDojo コミュニティがより活動しやすくなるため、法人提携や海外連携、機能開発やドキュメント制作などのコミットを続けています。 https://github.com/coderdojo-japan/coderdojo.jp
-
+  profile-id: sp08
