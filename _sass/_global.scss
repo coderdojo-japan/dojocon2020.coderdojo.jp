@@ -8,6 +8,7 @@ body {
   margin: 0;
   text-align: center;
   color: $brown;
+  padding-top: 60px;
 }
 
 h2 {
@@ -23,10 +24,7 @@ a {
   color: inherit; //リンクの文字色を場所によって変える
 }
 
-//ヘッダーの設定
-header {
-  padding-bottom: $navbar;
-}
+
 
 //投稿、トップページの情報ごとのひとかたまり
 section {
@@ -288,4 +286,13 @@ footer {
     .share-line {
       display: block;
     }
+  }
+
+  .bg-main{
+    background-color: $main-color;
+  }
+
+  .title-text{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
   }

@@ -1,0 +1,41 @@
+---
+layout: default
+title: "イベント企画"
+copy: "- Beyond the distance(距離を超えて) -"
+thumbnail: event.png
+---
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 col-12">
+            <h1>イベント企画</h1>
+            <p>どなたでもご参加いただける企画をご用意しています</p>
+        </div>
+    </div>
+
+    <div class="row text-left">
+        
+        {% for data in site.data.event %}
+
+        <div class="col-md-6 col-12 p-3" id="{{data.title}}">
+            <h4 class="ws-title">{{data.title}}</h4>
+
+            <p>
+                {{data.time}}
+                {% if data.tag %}
+                    <span class="badge badge-ws">{{data.tag}}</span> 
+                {% endif %}
+
+                </p> 
+
+            <img src="img/event/{{data.img}}" class="w-100"alt="">
+
+            <p>{{data.text}}</p>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
