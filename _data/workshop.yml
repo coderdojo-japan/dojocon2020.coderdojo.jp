@@ -87,7 +87,7 @@
   badge: must
   time: 15:20-16:20
   text: スクラッチを使って遠隔地のロボットを操作して遊ぼう！自宅にいながらロボットを動かすことができます。ロボットをうまく操作してコースをクリアしよう！※LEGOブロックをプログラミングして動かせるマインドストームEV3を使っています。
-  limit: 8
+  limit: 12
   url: https://dojocon-japan.doorkeeper.jp/events/114697
 
 - title: オンラインツールお試し会
