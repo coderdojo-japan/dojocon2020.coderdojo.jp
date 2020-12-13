@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: post
 title:  "コンテスト ニンジャ部門 ファイナリスト"
+categories: news
+thumbnail: thumbnail_news.png
+permalink: /posts/8/
 ---
 
 # DojoCon Japan 2020 プログラミングコンテスト <br> ニンジャ部門 ファイナリスト発表
