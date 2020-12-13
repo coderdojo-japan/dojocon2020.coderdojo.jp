@@ -18,7 +18,7 @@ permalink: /posts/8/
 
 | 作品名 | 作者 | 所属Dojo |
 |:----|:----|:----|
-| ブラッシュトーク | 平川晴茄 | CoderDojo宮崎 |
+| ぶらっしゅとーく | 平川晴茄 | CoderDojo宮崎 |
 | 日本一周旅行クイズ | 川口明莉 | CoderDojo名古屋 CoderDojo瑞穂 |
 | Crappy Bird: Cuti-cuti Malaysia | Chay Ze Huan | CoderDojo Penang Science Cluster (Malaysia) |
 | ゴミあらしカラス対策装置 | 五島 舜太郎 | CoderDojo瑞穂 CoderDojo日進 |
