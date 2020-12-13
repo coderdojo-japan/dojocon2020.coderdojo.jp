@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "コンテスト ニンジャ部門 ファイナリスト"
+title:  "【コンテスト】 ニンジャ部門のファイナリストが決定！"
 categories: news
 thumbnail: thumbnail_news.png
 permalink: /posts/8/
