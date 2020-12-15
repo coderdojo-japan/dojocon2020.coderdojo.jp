@@ -33,6 +33,10 @@ github_username:
 plugins:
   - jekyll-feed
 
+collections:
+  pages:
+    output: true
+
 defaults:
   - scope:
       path: ""
