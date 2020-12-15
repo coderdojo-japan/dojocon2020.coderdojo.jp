@@ -2,8 +2,6 @@
 layout: jiman_text
 title:  "タイトル〜サブタイトル〜"
 dojo_name:  "道場名"
-tags: "Dojo自慢"
-categories: Dojo自慢
 thumbnail: jiman/hoge1.png
 dojo_desciption: >
   この例文は、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。
