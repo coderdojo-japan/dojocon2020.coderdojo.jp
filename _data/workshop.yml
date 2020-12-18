@@ -5,12 +5,12 @@
 #   limit:  定員
 #   url:    Doorkeeper URL
 
-- title: みんなでワイワイ☆Scratchでモブプロにチャレンジ！
+- title: ポケモンと学ぶ初めてのプログラミング！
   badge: must
-  time: 13:00-15:00
-  text: 世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか？さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。<br><br>【モブプログラミングとは】みんなで後ろでヤイヤイ言いながら、一人の操作係が手を動かすプログラミングです。操作係を交代しながら進めていきます。
-  limit: 8
-  url: https://dojocon-japan.doorkeeper.jp/events/114679
+  time: 11:00-17:00（全4回/各回1時間）
+  text: DojoCon Japan 2020 特別ワークショップをご用意しました。プログラミングツール Scratch を使って、ポケモンを動かしゲットしよう！（本ワークショップはプログラミングを初めて体験する方向けとなっております。）
+  limit: 各回25人 / 合計100
+  url: https://dojocon-japan.doorkeeper.jp/
 
 - title: ハックフォープレイ30分コース
   badge: must
@@ -18,6 +18,16 @@
   text: あそべるプログラミング・ハックフォープレイを使って、JavaScript でゲームを作りましょう！初心者の方でもご参加いただけます。
   limit: 8
   url: https://dojocon-japan.doorkeeper.jp/events/114695
+
+
+- title: みんなでワイワイ☆Scratchでモブプロにチャレンジ！
+  badge: must
+  time: 13:00-15:00
+  text: 世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか？さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。<br><br>【モブプログラミングとは】みんなで後ろでヤイヤイ言いながら、一人の操作係が手を動かすプログラミングです。操作係を交代しながら進めていきます。
+  limit: 8
+  url: https://dojocon-japan.doorkeeper.jp/events/114679
+
+
 
 - title: みんなで合作！スプレッドシートでドット絵おえかき体験
   badge: double
