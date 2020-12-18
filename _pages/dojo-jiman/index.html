@@ -26,7 +26,9 @@ permalink: /dojo-jiman/
                                 <div class="row">
                                     <div class="col-4 col-md-3 jiman1">
                                     {% if page.dojo_icon %}
-                                        <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}.png" width="100%"/>
+                                        <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" width="100%"/>
+                                    {% elsif page.dojo_iconfile %}
+                                        <img src="{{site.url}}/img/post/{{page.dojo_iconfile}}" width="100%"/>
                                     {% else %}
                                         <img src="https://coderdojo.jp/img/dojos/coderdojo.png" width="100%"/>
                                     {% endif %}
@@ -37,7 +39,7 @@ permalink: /dojo-jiman/
                                 </div>
                             </div>
                             <div class="col-9 col-md-8">
-                                <span class="text-left h2">{{ page.title }}</span>
+                                <a href="{{page.url}}"> <span class="text-left h2">{{ page.title }}</span></a>
                             </div>
                             <div class="col-3 col-md-2 d-flex align-items-center">
                                 <a href="{{page.url}}" class="btn btn-main">もっと見る</a>
