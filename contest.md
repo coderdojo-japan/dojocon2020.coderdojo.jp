@@ -3,7 +3,7 @@ layout: page
 title:  "コンテスト"
 ---
 
-# DojoCon Japan 2020 プログラミングコンテスト <br> 募集要項
+# DojoCon Japan 2020 <br> プログラミングコンテスト <br> 募集要項
 
 例年 DojoCon Japan では、子ども達に海外の文化やコミュニティーにふれてもらいたいという思いから、
 Go Global! コンテストが開催されています。
