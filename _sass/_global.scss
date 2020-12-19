@@ -296,3 +296,20 @@ footer {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: bold;
   }
+
+// テーブル
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,
+table td {
+  padding: .5em 1.5em;
+  border: 1px solid #505050;
+}
+
+table thead th {
+  background-color: #e8e8e8;
+}

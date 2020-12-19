@@ -6,7 +6,7 @@ thumbnail: thumbnail_news.png
 permalink: /posts/8/
 ---
 
-# DojoCon Japan 2020 プログラミングコンテスト <br> ニンジャ部門 ファイナリスト発表
+# DojoCon Japan 2020 <br> プログラミングコンテスト <br> ニンジャ部門 ファイナリスト発表
 
 ニンジャ部門へは、70点のご応募がありました。
 
@@ -22,5 +22,5 @@ permalink: /posts/8/
 | 日本一周旅行クイズ | 川口明莉 | CoderDojo名古屋 CoderDojo瑞穂 |
 | Crappy Bird: Cuti-cuti Malaysia | Chay Ze Huan | CoderDojo Penang Science Cluster (Malaysia) |
 | ゴミあらしカラス対策装置 | 五島 舜太郎 | CoderDojo瑞穂 CoderDojo日進 |
-| 機械学習(ニューラルネットワーク) を最初からプログラムして、数字判定システムを作ってみる | 三宅大智 | CoderDojo長津田 CoderDojo町田 CoderDojoあざみ野 |
+| 機械学習(ニューラルネットワーク) <br>を最初からプログラムして、<br>数字判定システムを作ってみる | 三宅大智 | CoderDojo長津田 CoderDojo町田 CoderDojoあざみ野 |
 | はたらきネコのリンゴ収穫日記 | 内田朋樹 | CoderDojo倉敷 |
