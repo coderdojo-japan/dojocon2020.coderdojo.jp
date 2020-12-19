@@ -21,7 +21,7 @@
 
 - title: ドット絵おえかき
   badge: double
-  time: 13:00-16:30 
+  time: 13:00-16:30
   text: Google スプレッドシートを使ったピクセルアート体験です。好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪<br>※当日飛び込み参加については別途ご案内
   limit: 30
   url: https://dojocon-japan.doorkeeper.jp/events/114698
@@ -100,6 +100,12 @@
 - title: 子どもプログラミング喫茶
   badge: none
   time: 13:00-16:30
-  text: 
-  limit: 
-  url: 
+  text: >
+    子ども向けのプログラミング体験を喫茶店のメニューのようにご用意いたしております。体験時間は10－20分、プログラミングが初めての方も、新しいことにチャレンジしてみたい方も大歓迎。<a href="https://kidsc2.org/" target="_blank" rel="noopener">子どもプログラミングレシピ『Kids Code Club』</a>、<a href="https://mekurun.com/" target="_blank" rel="noopener">スライドで学べる子ども向けプログラミング学習サイト『メクルン』</a>が提供するメニューを用意しております。<br>
+    <p style="text-align:center;">教材提供</p>
+    <div style="display:flex;align-items:center;">
+    <a href="https://kidsc2.org/" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/kidscodeclub.png" style="width:100%"></a>
+    <a href="https://mekurun.com/" target="_blank" rel="noopener" style="width: 100%;margin-left: 2rem;"><img src="/img/workshop/mekurun.png" style="width:100%;"></a>
+    </div>
+  limit:
+  url:
