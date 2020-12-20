@@ -15,7 +15,8 @@ Go Global! コンテストが開催されています。
 
 ファイナリストは以下のリンクから確認できます。
 
-<a href="/posts/8/" class="button" rel="noopener">ファイナリスト一覧</a>
+<a href="/posts/8/" class="button" rel="noopener">【ニンジャ部門】ファイナリスト</a>
+<a href="/posts/10/" class="button" rel="noopener">【メンター部門】ファイナリスト</a>
 
 ## 部門
 
