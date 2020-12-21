@@ -6,7 +6,7 @@ thumbnail: jiman/nago.jpg
 dojo_desciption: 
   月に複数回開催、平均参加者６名、会場はあけみおSKYドームなど<br><a href="http://coderdojo-nago.com">CoderDojo名護Webサイト</a>
 dojo_icon: 
-dojo_iconfile: jiman/nago_icon.png
+dojo_iconfile: nago_icon.png
 permalink: /dojo-jiman/nago/
 ---
 
