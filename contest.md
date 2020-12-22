@@ -3,13 +3,20 @@ layout: page
 title:  "コンテスト"
 ---
 
-# DojoCon Japan 2020 プログラミングコンテスト <br> 募集要項
+# DojoCon Japan 2020 <br> プログラミングコンテスト <br> 募集要項
 
 例年 DojoCon Japan では、子ども達に海外の文化やコミュニティーにふれてもらいたいという思いから、
 Go Global! コンテストが開催されています。
 しかしながら、COVID-19 の感染拡大が続く中、海外へ行くことは、なかなか厳しい状況となっています。
 ですが、コンテストによって、特にニンジャ層の交流がより広がっていたり、また喜び、達成感を一人でも多くもらえる場があると良いと考え、
 今年は DojoCon Japan 2020 プログラミングコンテスト を開催することになりました。
+
+## 沢山のご応募ありがとうございました
+
+ファイナリストは以下のリンクから確認できます。
+
+<a href="/posts/8/" class="button" rel="noopener">【ニンジャ部門】ファイナリスト</a>
+<a href="/posts/10/" class="button" rel="noopener">【メンター部門】ファイナリスト</a>
 
 ## 部門
 
@@ -133,6 +140,3 @@ YouTube の限定公開などの紹介動画 URL を一緒に添付してくだ�
 ## お問い合わせ先
 
 [こちらのお問い合わせフォーム](/#contactus) からお願いします。
-
-<a href="https://dojocon2020.coderdojo.jp/files/contest-rule-2020.pdf" class="button" target="_blank" rel="noopener">参加規約を確認</a>
-<a href="https://forms.gle/FpUnUcAspEjqfc2S7" class="button" target="_blank" rel="noopener">作品を応募する</a>
