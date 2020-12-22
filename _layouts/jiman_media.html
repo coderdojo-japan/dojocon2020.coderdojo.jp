@@ -28,6 +28,8 @@ layout: default
       <div class="col-2">
         {% if page.dojo_icon %}
           <img src="https://raw.githubusercontent.com/coderdojo-japan/coderdojo.jp/master/public/img/dojos/{{page.dojo_icon}}" />
+        {% elsif page.dojo_iconfile %}
+          <img src="{{site.url}}/img/post/jiman/{{page.dojo_iconfile}}" />
         {% else %}
           <img src="https://coderdojo.jp/img/dojos/coderdojo.png" />
         {% endif %}
