@@ -18,7 +18,7 @@ permalink: /posts/10/
 |:----|:----|:----|
 | 波動方程式テスト | 井川　健一 | CoderDojo水戸 |
 | 見た目の効果ブロックを使った表現の工夫 | 岡崎芳希 | CoderDojo福岡 |
-| たたけるディスプレイ | igarashi toshiaki | CoderDojo溝の口 |
+| たたけるディスプレイ | igarashi toshiaki | CoderDojo溝口 |
 | キャラクター表示Tips | おおやけハジメ | CoderDojo調布 |
 | M5Scratch for DojoCon Japan 2020 | 武藤武士 | CoderDojo奈良 |
 | スタンプアート DojoCon.ver. | 月田由岐子 | CoderDojo立川, CoderDojo昭島 |
