@@ -40,7 +40,8 @@
 - title: micro:bit（マイクロビット）①micro:bitとサーボでしゃくとり虫を作ろう
   badge: must
   time: 13:00 - 13:45
-  text: ①micro:bitとサーボでしゃくとり虫を作ろう【micro:bit不要】<br>CoderDojo 福岡と太宰府でやっている、micro:bitとサーボを使ってしゃくとり虫を作るワークショップを紹介します。<br>2台のmicro:bitを使って、1台はしゃくとり虫本体、もう1台はリモコンというちょっとだけ贅沢なmicro:bit工作です。<br>Microsoft MakeCodeというビジュアルプログラミング環境でプログラミングする部分は体験していただきます。<br>そして、子ども達が（大人も！）よくはまる難しいポイントや、上手く作るためのコツをちょっとだけ伝授します！
+  text: >
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114636" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_microbit1.png" style="width:100%"></a><br />①micro:bitとサーボでしゃくとり虫を作ろう【micro:bit不要】<br>CoderDojo 福岡と太宰府でやっている、micro:bitとサーボを使ってしゃくとり虫を作るワークショップを紹介します。<br>2台のmicro:bitを使って、1台はしゃくとり虫本体、もう1台はリモコンというちょっとだけ贅沢なmicro:bit工作です。<br>Microsoft MakeCodeというビジュアルプログラミング環境でプログラミングする部分は体験していただきます。<br>そして、子ども達が（大人も！）よくはまる難しいポイントや、上手く作るためのコツをちょっとだけ伝授します！
   limit: 20
   url: https://dojocon-japan.doorkeeper.jp/events/114636
 
@@ -49,7 +50,7 @@
   time: 13:00-14:30
   text: >
     <a href="https://dojocon-japan.doorkeeper.jp/events/114693" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_minecraft.png" style="width:100%"></a><br />マインクラフトの操作方法は理解しいているけど、コマンドの使い方がよくわからない人、コマンドブロックを使って何か作ってみたいけどやり方がよくわからない人のためのワークショップです。<br>マインクラフトJavaEdition1.16.2でのコマンドの使い方を説明します。<br>コマンドの使い方説明や便利なツールの紹介の後、実際にコマンドを使って簡単なものを作ります。コマンドの使い方を覚えて、マインクラフトでできることをさらに広げてみませんか？
-  limit: 20
+  limit: 10
   url: https://dojocon-japan.doorkeeper.jp/events/114693
 
 - title: ハックフォープレイ90分コース
