@@ -8,7 +8,8 @@
 - title: ポケモンと学ぶ初めてのプログラミング！
   badge: must
   time: 11:00-17:00（全4回/各回1時間）
-  text: DojoCon Japan 2020 特別ワークショップをご用意しました。プログラミングツール Scratch を使って、ポケモンを動かしゲットしよう！（本ワークショップはプログラミングを初めて体験する方向けとなっております。）
+  text: >
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114830" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_pokemon.png" style="width:100%"></a><br />DojoCon Japan 2020 特別ワークショップをご用意しました。プログラミングツール Scratch を使って、ポケモンを動かしゲットしよう！（本ワークショップはプログラミングを初めて体験する方向けとなっております。）
   limit: 各回25人 / 合計100
   url: https://dojocon-japan.doorkeeper.jp/events/114830
 
@@ -23,16 +24,16 @@
 - title: みんなでワイワイ☆Scratchでモブプロにチャレンジ！
   badge: must
   time: 13:00-15:00
-  text: 世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか？さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。<br><br>【モブプログラミングとは】みんなで後ろでヤイヤイ言いながら、一人の操作係が手を動かすプログラミングです。操作係を交代しながら進めていきます。
+  text: >
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114679" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_mobpro.jpg" style="width:100%"></a><br />世の中にはいろんな「距離」があります。あなたが「距離」を感じるのはどんなときですか？さまざまな距離を感じながら、どこかにいる仲間と一緒にScratchプロジェクトを作って遊んでみましょう。<br><br>【モブプログラミングとは】みんなで後ろでヤイヤイ言いながら、一人の操作係が手を動かすプログラミングです。操作係を交代しながら進めていきます。
   limit: 8
   url: https://dojocon-japan.doorkeeper.jp/events/114679
-
-
 
 - title: みんなで合作！スプレッドシートでドット絵おえかき体験
   badge: double
   time: 13:00-16:30 
-  text: Google スプレッドシートを使った平面（２次元）のピクセルアート（ドット絵）体験会です。<br>好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪<br>※当日飛び込み参加については別途ご案内
+  text: >
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114698" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_pixelart.jpg" style="width:100%"></a><br />Google スプレッドシートを使った平面（２次元）のピクセルアート（ドット絵）体験会です。<br>好きな時間に好きなだけ熱中して、みなさんの手でスプレッドシートを楽しく彩ってください♪<br>※当日飛び込み参加については別途ご案内
   limit: 30
   url: https://dojocon-japan.doorkeeper.jp/events/114698
 
@@ -46,7 +47,8 @@
 - title: マインクラフト
   badge: must
   time: 13:00-14:30
-  text: マインクラフトの操作方法は理解しいているけど、コマンドの使い方がよくわからない人、コマンドブロックを使って何か作ってみたいけどやり方がよくわからない人のためのワークショップです。<br>マインクラフトJavaEdition1.16.2でのコマンドの使い方を説明します。<br>コマンドの使い方説明や便利なツールの紹介の後、実際にコマンドを使って簡単なものを作ります。コマンドの使い方を覚えて、マインクラフトでできることをさらに広げてみませんか？
+  text: >
+    <a href="https://dojocon-japan.doorkeeper.jp/events/114693" target="_blank" rel="noopener" style="width: 100%;"><img src="/img/workshop/ws_thumb_minecraft.png" style="width:100%"></a><br />マインクラフトの操作方法は理解しいているけど、コマンドの使い方がよくわからない人、コマンドブロックを使って何か作ってみたいけどやり方がよくわからない人のためのワークショップです。<br>マインクラフトJavaEdition1.16.2でのコマンドの使い方を説明します。<br>コマンドの使い方説明や便利なツールの紹介の後、実際にコマンドを使って簡単なものを作ります。コマンドの使い方を覚えて、マインクラフトでできることをさらに広げてみませんか？
   limit: 20
   url: https://dojocon-japan.doorkeeper.jp/events/114693
 
