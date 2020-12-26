@@ -1,7 +1,7 @@
 ---
 layout: jiman_text
-title:  "CoderDojo名護(沖縄)"
-dojo_name:  "CoderDojo名護(沖縄)"
+title:  "名護(沖縄)"
+dojo_name:  "名護(沖縄)"
 thumbnail: jiman/nago.jpg
 dojo_desciption: 
   月に複数回開催、平均参加者６名、会場はあけみおSKYドームなど<br><a href="http://coderdojo-nago.com">CoderDojo名護Webサイト</a>
