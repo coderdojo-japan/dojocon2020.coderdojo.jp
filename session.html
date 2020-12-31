@@ -15,7 +15,7 @@ thumbnail: session.png
     </div>
 
     <div class="row text-left">
-        
+
         {% for data in site.data.sessions %}
 
         <div class="col-md-6 col-12 p-3" id="{{data.title}}">
@@ -24,12 +24,12 @@ thumbnail: session.png
             <p>
                 {{data.time}}
                 {% if data.tag %}
-                    <span class="badge badge-ws">{{data.tag}}</span> 
+                    <span class="badge badge-ws">{{data.tag}}</span>
                 {% endif %}
 
-                </p> 
+                </p>
 
-                
+
             {% if data.profile-img %}
                 <div class="my-3">
                     <img src="img/session/{{data.profile-img}}" class="w-100 px-5" alt="">
@@ -41,17 +41,19 @@ thumbnail: session.png
             <p>{{data.text}}</p>
 
             <a href="#{{data.profile-id}}" role="button" data-toggle="collapse" class="btn btn-main btn-sm"><i class="fas fa-angle-down"></i> 登壇者プロフィール</a>
-
+            {% if data.archive-link %}
+            　<a href="{{data.archive-link}}" target="_blank" rel="noopener" class="btn btn-sm btn-secondary"><i class="fab fa-youtube"></i> セッションアーカイブ</a>
+            {% endif %}
             <div class="collapse mt-3" id="{{data.profile-id}}">
 
                 {% if data.tag == "パネルディスカッション" %}
 
                     {% for speaker in data.speakers %}
 
-                        <p class="session-speaker-name">{{speaker.name}}（{{speaker.affiliation}}）<span class="badge badge-main">{{speaker.role}}</span></p> 
+                        <p class="session-speaker-name">{{speaker.name}}（{{speaker.affiliation}}）<span class="badge badge-main">{{speaker.role}}</span></p>
 
                         <p>{{speaker.text}}</p>
-                        
+
                         <ul>
                         {% for link in speaker.sns %}
 
@@ -62,7 +64,7 @@ thumbnail: session.png
 
                     {% endfor %}
 
-                
+
 
                 {% else %}
                 <p>{{data.profile-text}}</p>
@@ -75,7 +77,7 @@ thumbnail: session.png
 
             </div>
 
-            
+
 
         </div>
 

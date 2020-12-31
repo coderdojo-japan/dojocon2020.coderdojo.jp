@@ -3,7 +3,7 @@
     padding: 1rem 1rem;
     border-left: 5px solid $main-color;
     background: #f4f4f4;
-      
+
 }
 
 .btn-main{
@@ -11,7 +11,11 @@
     color: white;
 }
 
-
+.btn-secondary {
+    background-color: $light-blue;
+    color: white;
+    border: none;
+}
 
 .badge-must{
     font-weight: bold;
